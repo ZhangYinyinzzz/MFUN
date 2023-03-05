@@ -1,0 +1,712 @@
+==> Loading data..
+Dataset regdb statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  visible  |   206 |     2060
+  thermal  |   206 |     2060
+  ------------------------------
+  query    |   206 |     2060
+  gallery  |   206 |     2060
+  ------------------------------
+Data Loading Time:	 136.041
+==> Building model..
+==> Start Training...
+==> Preparing Data Loader...
+Epoch: [0][0/64] Time: 2.991 (2.991) Data: 0.545 (0.545) lr:0.01 Loss: 8.3680 (8.3680) TLoss: 5.6869 (5.6869) Accu: 0.00
+Epoch: [0][10/64] Time: 1.104 (1.401) Data: 0.020 (0.068) lr:0.01 Loss: 8.1939 (8.3528) TLoss: 5.1939 (6.2013) Accu: 5.97
+Epoch: [0][20/64] Time: 0.684 (1.249) Data: 0.013 (0.044) lr:0.01 Loss: 7.6392 (8.1657) TLoss: 3.9618 (5.6878) Accu: 3.65
+Epoch: [0][30/64] Time: 1.222 (1.219) Data: 0.014 (0.035) lr:0.01 Loss: 7.1796 (8.0134) TLoss: 5.5652 (5.7090) Accu: 3.18
+Epoch: [0][40/64] Time: 1.258 (1.212) Data: 0.013 (0.031) lr:0.01 Loss: 7.2772 (7.7724) TLoss: 4.4066 (5.2532) Accu: 3.05
+Epoch: [0][50/64] Time: 1.154 (1.185) Data: 0.020 (0.028) lr:0.01 Loss: 7.9764 (7.7379) TLoss: 4.5575 (5.1125) Accu: 2.63
+Epoch: [0][60/64] Time: 0.713 (1.122) Data: 0.016 (0.026) lr:0.01 Loss: 8.8436 (7.5934) TLoss: 3.7861 (4.9270) Accu: 2.92
+==> Preparing Data Loader...
+Epoch: [1][0/64] Time: 1.291 (1.291) Data: 0.571 (0.571) lr:0.01 Loss: 8.4555 (8.4555) TLoss: 4.5340 (4.5340) Accu: 0.00
+Epoch: [1][10/64] Time: 0.689 (0.776) Data: 0.014 (0.065) lr:0.01 Loss: 4.8435 (6.8912) TLoss: 1.5341 (3.4569) Accu: 2.98
+Epoch: [1][20/64] Time: 0.685 (0.754) Data: 0.013 (0.041) lr:0.01 Loss: 7.7040 (7.1490) TLoss: 4.5584 (3.8634) Accu: 3.20
+Epoch: [1][30/64] Time: 0.696 (0.733) Data: 0.013 (0.032) lr:0.01 Loss: 6.5989 (6.8992) TLoss: 3.0677 (3.6115) Accu: 4.79
+Epoch: [1][40/64] Time: 0.723 (0.731) Data: 0.017 (0.028) lr:0.01 Loss: 7.3548 (6.8681) TLoss: 1.9493 (3.3602) Accu: 4.42
+Epoch: [1][50/64] Time: 0.756 (0.728) Data: 0.015 (0.025) lr:0.01 Loss: 5.6157 (6.6794) TLoss: 1.6502 (3.1770) Accu: 5.61
+Epoch: [1][60/64] Time: 0.836 (0.738) Data: 0.017 (0.024) lr:0.01 Loss: 5.3994 (6.5144) TLoss: 0.4936 (2.8992) Accu: 6.51
+==> Preparing Data Loader...
+Epoch: [2][0/64] Time: 1.241 (1.241) Data: 0.503 (0.503) lr:0.01 Loss: 5.3744 (5.3744) TLoss: 1.3340 (1.3340) Accu: 15.62
+Epoch: [2][10/64] Time: 0.712 (0.735) Data: 0.013 (0.059) lr:0.01 Loss: 6.4542 (6.1056) TLoss: 3.1393 (2.1149) Accu: 6.53
+Epoch: [2][20/64] Time: 0.778 (0.737) Data: 0.015 (0.038) lr:0.01 Loss: 6.1521 (5.9578) TLoss: 3.4653 (2.0611) Accu: 7.44
+Epoch: [2][30/64] Time: 0.670 (0.732) Data: 0.015 (0.030) lr:0.01 Loss: 7.3752 (5.9355) TLoss: 3.3125 (1.9061) Accu: 6.35
+Epoch: [2][40/64] Time: 0.706 (0.722) Data: 0.014 (0.026) lr:0.01 Loss: 5.4507 (5.8823) TLoss: 0.7335 (1.8510) Accu: 7.13
+Epoch: [2][50/64] Time: 0.727 (0.723) Data: 0.016 (0.024) lr:0.01 Loss: 4.2323 (5.7691) TLoss: 0.2440 (1.8094) Accu: 7.20
+Epoch: [2][60/64] Time: 0.736 (0.726) Data: 0.014 (0.022) lr:0.01 Loss: 6.2231 (5.6787) TLoss: 0.7232 (1.7203) Accu: 8.02
+Test Epoch: 2
+Extracting Gallery Feature...
+Extracting Time:	 3.388
+Extracting Query Feature...
+Extracting Time:	 3.387
+Evaluation Time:	 9.965
+FC:   Rank-1: 56.12% | Rank-10: 79.42% | Rank-20: 87.62%| mAP: 51.65%
+==> Preparing Data Loader...
+Epoch: [3][0/64] Time: 1.906 (1.906) Data: 0.568 (0.568) lr:0.01 Loss: 4.7374 (4.7374) TLoss: 1.3349 (1.3349) Accu: 10.94
+Epoch: [3][10/64] Time: 1.266 (1.310) Data: 0.014 (0.069) lr:0.01 Loss: 4.3283 (4.5431) TLoss: 1.1550 (0.7852) Accu: 15.20
+Epoch: [3][20/64] Time: 1.227 (1.194) Data: 0.020 (0.045) lr:0.01 Loss: 5.7918 (4.8369) TLoss: 0.6616 (0.9602) Accu: 14.36
+Epoch: [3][30/64] Time: 1.171 (1.196) Data: 0.022 (0.036) lr:0.01 Loss: 3.7378 (4.7793) TLoss: 0.1400 (1.0191) Accu: 14.26
+Epoch: [3][40/64] Time: 1.218 (1.170) Data: 0.020 (0.032) lr:0.01 Loss: 5.4642 (4.7712) TLoss: 0.7811 (0.9974) Accu: 14.02
+Epoch: [3][50/64] Time: 1.291 (1.174) Data: 0.013 (0.029) lr:0.01 Loss: 4.7814 (4.8238) TLoss: 0.9636 (1.0028) Accu: 13.79
+Epoch: [3][60/64] Time: 0.997 (1.151) Data: 0.015 (0.027) lr:0.01 Loss: 5.5293 (4.8233) TLoss: 1.3094 (0.9741) Accu: 14.32
+==> Preparing Data Loader...
+Epoch: [4][0/64] Time: 1.752 (1.752) Data: 0.556 (0.556) lr:0.01 Loss: 4.4398 (4.4398) TLoss: 0.1492 (0.1492) Accu: 3.12
+Epoch: [4][10/64] Time: 1.246 (1.244) Data: 0.015 (0.069) lr:0.01 Loss: 4.5804 (4.6419) TLoss: 0.6231 (0.8568) Accu: 16.48
+Epoch: [4][20/64] Time: 1.183 (1.165) Data: 0.014 (0.044) lr:0.01 Loss: 4.0403 (4.6909) TLoss: 0.3803 (0.9327) Accu: 15.40
+Epoch: [4][30/64] Time: 0.740 (1.087) Data: 0.016 (0.035) lr:0.01 Loss: 5.2344 (4.6402) TLoss: 0.2163 (0.8473) Accu: 14.11
+Epoch: [4][40/64] Time: 0.715 (0.999) Data: 0.014 (0.030) lr:0.01 Loss: 5.7762 (4.5269) TLoss: 1.2446 (0.7621) Accu: 15.43
+Epoch: [4][50/64] Time: 0.687 (0.944) Data: 0.014 (0.027) lr:0.01 Loss: 4.4319 (4.5233) TLoss: 0.2591 (0.7360) Accu: 15.10
+Epoch: [4][60/64] Time: 0.674 (0.900) Data: 0.013 (0.025) lr:0.01 Loss: 4.5116 (4.4960) TLoss: 0.3222 (0.7053) Accu: 16.11
+Test Epoch: 4
+Extracting Gallery Feature...
+Extracting Time:	 3.582
+Extracting Query Feature...
+Extracting Time:	 3.441
+Evaluation Time:	 10.542
+FC:   Rank-1: 72.04% | Rank-10: 89.47% | Rank-20: 94.08%| mAP: 66.42%
+==> Preparing Data Loader...
+Epoch: [5][0/64] Time: 1.298 (1.298) Data: 0.544 (0.544) lr:0.01 Loss: 5.6767 (5.6767) TLoss: 2.4590 (2.4590) Accu: 1.56
+Epoch: [5][10/64] Time: 0.738 (0.812) Data: 0.014 (0.062) lr:0.01 Loss: 5.0732 (4.4056) TLoss: 0.0973 (0.8875) Accu: 15.91
+Epoch: [5][20/64] Time: 0.678 (0.751) Data: 0.012 (0.039) lr:0.01 Loss: 4.3722 (4.2812) TLoss: 1.5887 (0.6856) Accu: 17.26
+Epoch: [5][30/64] Time: 0.824 (0.744) Data: 0.017 (0.031) lr:0.01 Loss: 5.1948 (4.3001) TLoss: 1.0408 (0.6808) Accu: 17.69
+Epoch: [5][40/64] Time: 0.730 (0.754) Data: 0.014 (0.027) lr:0.01 Loss: 3.8063 (4.2487) TLoss: 1.0003 (0.6963) Accu: 17.15
+Epoch: [5][50/64] Time: 0.702 (0.746) Data: 0.015 (0.025) lr:0.01 Loss: 3.3011 (4.2001) TLoss: 0.5492 (0.6904) Accu: 18.20
+Epoch: [5][60/64] Time: 0.729 (0.741) Data: 0.018 (0.023) lr:0.01 Loss: 4.5561 (4.1369) TLoss: 0.1352 (0.6992) Accu: 18.98
+==> Preparing Data Loader...
+Epoch: [6][0/64] Time: 1.295 (1.295) Data: 0.564 (0.564) lr:0.01 Loss: 3.8194 (3.8194) TLoss: 0.0387 (0.0387) Accu: 25.00
+Epoch: [6][10/64] Time: 0.723 (0.790) Data: 0.014 (0.064) lr:0.01 Loss: 3.0605 (3.5101) TLoss: 0.2521 (0.2716) Accu: 27.13
+Epoch: [6][20/64] Time: 0.692 (0.747) Data: 0.013 (0.041) lr:0.01 Loss: 3.6689 (3.6489) TLoss: 0.3385 (0.3762) Accu: 25.22
+Epoch: [6][30/64] Time: 0.700 (0.726) Data: 0.017 (0.032) lr:0.01 Loss: 4.0149 (3.6155) TLoss: 0.8223 (0.3990) Accu: 24.95
+Epoch: [6][40/64] Time: 1.290 (0.779) Data: 0.014 (0.028) lr:0.01 Loss: 3.5616 (3.5701) TLoss: 0.6625 (0.4091) Accu: 26.37
+Epoch: [6][50/64] Time: 1.208 (0.862) Data: 0.016 (0.026) lr:0.01 Loss: 4.6703 (3.4480) TLoss: 0.0200 (0.3771) Accu: 29.23
+Epoch: [6][60/64] Time: 1.163 (0.901) Data: 0.015 (0.025) lr:0.01 Loss: 2.9107 (3.3977) TLoss: 0.7072 (0.3841) Accu: 29.92
+Test Epoch: 6
+Extracting Gallery Feature...
+Extracting Time:	 4.860
+Extracting Query Feature...
+Extracting Time:	 4.802
+Evaluation Time:	 10.131
+FC:   Rank-1: 72.96% | Rank-10: 90.10% | Rank-20: 94.32%| mAP: 68.92%
+==> Preparing Data Loader...
+Epoch: [7][0/64] Time: 1.662 (1.662) Data: 0.538 (0.538) lr:0.01 Loss: 2.1873 (2.1873) TLoss: 0.0115 (0.0115) Accu: 53.12
+Epoch: [7][10/64] Time: 0.859 (1.229) Data: 0.021 (0.068) lr:0.01 Loss: 4.5905 (2.7861) TLoss: 0.3813 (0.2207) Accu: 42.61
+Epoch: [7][20/64] Time: 1.227 (1.180) Data: 0.022 (0.044) lr:0.01 Loss: 3.1822 (2.9214) TLoss: 0.0807 (0.2419) Accu: 40.48
+Epoch: [7][30/64] Time: 1.303 (1.191) Data: 0.017 (0.036) lr:0.01 Loss: 2.2744 (3.0480) TLoss: 0.1682 (0.3158) Accu: 38.81
+Epoch: [7][40/64] Time: 1.293 (1.167) Data: 0.015 (0.031) lr:0.01 Loss: 2.8039 (3.0976) TLoss: 0.4081 (0.3675) Accu: 37.61
+Epoch: [7][50/64] Time: 0.738 (1.116) Data: 0.017 (0.028) lr:0.01 Loss: 3.6672 (3.0508) TLoss: 0.1180 (0.3209) Accu: 36.70
+Epoch: [7][60/64] Time: 0.705 (1.051) Data: 0.016 (0.026) lr:0.01 Loss: 3.0677 (3.0851) TLoss: 0.1572 (0.3206) Accu: 36.30
+==> Preparing Data Loader...
+Epoch: [8][0/64] Time: 1.294 (1.294) Data: 0.554 (0.554) lr:0.01 Loss: 2.7225 (2.7225) TLoss: 0.1218 (0.1218) Accu: 20.31
+Epoch: [8][10/64] Time: 0.697 (0.763) Data: 0.015 (0.064) lr:0.01 Loss: 3.9296 (2.9422) TLoss: 1.0009 (0.2069) Accu: 32.39
+Epoch: [8][20/64] Time: 0.703 (0.730) Data: 0.016 (0.040) lr:0.01 Loss: 3.9971 (2.9174) TLoss: 0.1987 (0.1737) Accu: 34.97
+Epoch: [8][30/64] Time: 0.750 (0.727) Data: 0.015 (0.032) lr:0.01 Loss: 2.4707 (2.9486) TLoss: 0.2172 (0.2047) Accu: 36.54
+Epoch: [8][40/64] Time: 0.743 (0.727) Data: 0.014 (0.028) lr:0.01 Loss: 3.3739 (2.8873) TLoss: 0.4019 (0.1849) Accu: 37.96
+Epoch: [8][50/64] Time: 0.740 (0.733) Data: 0.017 (0.026) lr:0.01 Loss: 2.3419 (2.8195) TLoss: 0.0078 (0.1939) Accu: 39.77
+Epoch: [8][60/64] Time: 0.716 (0.733) Data: 0.018 (0.024) lr:0.01 Loss: 2.8435 (2.8541) TLoss: 0.1012 (0.1974) Accu: 39.45
+Test Epoch: 8
+Extracting Gallery Feature...
+Extracting Time:	 3.358
+Extracting Query Feature...
+Extracting Time:	 3.378
+Evaluation Time:	 11.527
+FC:   Rank-1: 79.81% | Rank-10: 93.98% | Rank-20: 96.65%| mAP: 73.19%
+==> Preparing Data Loader...
+Epoch: [9][0/64] Time: 1.210 (1.210) Data: 0.520 (0.520) lr:0.01 Loss: 1.6139 (1.6139) TLoss: 0.0779 (0.0779) Accu: 70.31
+Epoch: [9][10/64] Time: 0.727 (0.738) Data: 0.015 (0.059) lr:0.01 Loss: 1.0045 (2.3009) TLoss: 0.0000 (0.2392) Accu: 50.43
+Epoch: [9][20/64] Time: 0.741 (0.739) Data: 0.018 (0.038) lr:0.01 Loss: 3.3612 (2.6657) TLoss: 0.0947 (0.2550) Accu: 43.75
+Epoch: [9][30/64] Time: 0.699 (0.734) Data: 0.013 (0.030) lr:0.01 Loss: 2.6230 (2.7018) TLoss: 0.6217 (0.2414) Accu: 43.70
+Epoch: [9][40/64] Time: 0.673 (0.719) Data: 0.014 (0.026) lr:0.01 Loss: 3.0082 (2.6483) TLoss: 0.7446 (0.2134) Accu: 43.29
+Epoch: [9][50/64] Time: 0.822 (0.714) Data: 0.016 (0.023) lr:0.01 Loss: 2.9290 (2.6141) TLoss: 0.0200 (0.2071) Accu: 44.52
+Epoch: [9][60/64] Time: 1.171 (0.790) Data: 0.020 (0.023) lr:0.01 Loss: 1.6233 (2.6306) TLoss: 0.0000 (0.2502) Accu: 44.62
+==> Preparing Data Loader...
+Epoch: [10][0/64] Time: 1.824 (1.824) Data: 0.524 (0.524) lr:0.01 Loss: 3.5960 (3.5960) TLoss: 1.4753 (1.4753) Accu: 43.75
+Epoch: [10][10/64] Time: 1.254 (1.126) Data: 0.020 (0.064) lr:0.01 Loss: 2.1265 (2.4393) TLoss: 0.0592 (0.3684) Accu: 51.14
+Epoch: [10][20/64] Time: 1.287 (1.176) Data: 0.013 (0.042) lr:0.01 Loss: 2.0182 (2.4659) TLoss: 0.0000 (0.2717) Accu: 47.54
+Epoch: [10][30/64] Time: 1.198 (1.139) Data: 0.019 (0.034) lr:0.01 Loss: 1.8399 (2.4549) TLoss: 0.0006 (0.2456) Accu: 51.56
+Epoch: [10][40/64] Time: 1.198 (1.153) Data: 0.019 (0.030) lr:0.01 Loss: 3.1240 (2.3485) TLoss: 0.8729 (0.2218) Accu: 53.51
+Epoch: [10][50/64] Time: 1.192 (1.137) Data: 0.019 (0.027) lr:0.01 Loss: 2.3707 (2.2973) TLoss: 0.0726 (0.2285) Accu: 55.18
+Epoch: [10][60/64] Time: 1.164 (1.151) Data: 0.014 (0.026) lr:0.01 Loss: 1.1864 (2.2555) TLoss: 0.0055 (0.2008) Accu: 55.51
+Test Epoch: 10
+Extracting Gallery Feature...
+Extracting Time:	 4.054
+Extracting Query Feature...
+Extracting Time:	 4.894
+Evaluation Time:	 10.108
+FC:   Rank-1: 81.46% | Rank-10: 94.56% | Rank-20: 96.84%| mAP: 75.84%
+==> Preparing Data Loader...
+Epoch: [11][0/64] Time: 1.433 (1.433) Data: 0.694 (0.694) lr:0.01 Loss: 1.5906 (1.5906) TLoss: 0.0000 (0.0000) Accu: 75.00
+Epoch: [11][10/64] Time: 0.742 (0.805) Data: 0.016 (0.076) lr:0.01 Loss: 2.8981 (2.3040) TLoss: 0.0000 (0.0652) Accu: 49.72
+Epoch: [11][20/64] Time: 0.700 (0.764) Data: 0.015 (0.047) lr:0.01 Loss: 1.3271 (2.2240) TLoss: 0.0000 (0.0674) Accu: 55.73
+Epoch: [11][30/64] Time: 0.688 (0.740) Data: 0.014 (0.036) lr:0.01 Loss: 2.1972 (2.0708) TLoss: 0.0000 (0.0752) Accu: 57.61
+Epoch: [11][40/64] Time: 0.702 (0.729) Data: 0.016 (0.031) lr:0.01 Loss: 1.3533 (2.0932) TLoss: 0.1685 (0.0922) Accu: 58.23
+Epoch: [11][50/64] Time: 0.752 (0.729) Data: 0.015 (0.028) lr:0.01 Loss: 2.0719 (2.0806) TLoss: 0.1581 (0.0955) Accu: 58.43
+Epoch: [11][60/64] Time: 0.739 (0.729) Data: 0.014 (0.026) lr:0.01 Loss: 2.5185 (2.0386) TLoss: 0.0000 (0.0994) Accu: 59.27
+==> Preparing Data Loader...
+Epoch: [12][0/64] Time: 1.347 (1.347) Data: 0.616 (0.616) lr:0.01 Loss: 2.6270 (2.6270) TLoss: 0.0346 (0.0346) Accu: 37.50
+Epoch: [12][10/64] Time: 0.727 (0.791) Data: 0.014 (0.068) lr:0.01 Loss: 1.4086 (2.2718) TLoss: 0.0000 (0.0941) Accu: 52.13
+Epoch: [12][20/64] Time: 0.672 (0.736) Data: 0.012 (0.042) lr:0.01 Loss: 1.3406 (2.1728) TLoss: 0.0173 (0.1089) Accu: 53.27
+Epoch: [12][30/64] Time: 0.748 (0.729) Data: 0.014 (0.033) lr:0.01 Loss: 2.4463 (1.9671) TLoss: 0.0253 (0.0791) Accu: 58.42
+Epoch: [12][40/64] Time: 0.737 (0.732) Data: 0.015 (0.028) lr:0.01 Loss: 1.3574 (1.9150) TLoss: 0.0000 (0.0859) Accu: 60.79
+Epoch: [12][50/64] Time: 0.668 (0.722) Data: 0.013 (0.025) lr:0.01 Loss: 2.1642 (1.8806) TLoss: 0.0050 (0.0769) Accu: 62.90
+Epoch: [12][60/64] Time: 0.720 (0.722) Data: 0.013 (0.023) lr:0.01 Loss: 2.9929 (1.8443) TLoss: 0.0300 (0.0757) Accu: 63.96
+Test Epoch: 12
+Extracting Gallery Feature...
+Extracting Time:	 3.458
+Extracting Query Feature...
+Extracting Time:	 3.482
+Evaluation Time:	 9.897
+FC:   Rank-1: 81.31% | Rank-10: 93.83% | Rank-20: 96.75%| mAP: 74.92%
+==> Preparing Data Loader...
+Epoch: [13][0/64] Time: 1.190 (1.190) Data: 0.507 (0.507) lr:0.01 Loss: 1.9797 (1.9797) TLoss: 0.0165 (0.0165) Accu: 56.25
+Epoch: [13][10/64] Time: 1.136 (0.833) Data: 0.022 (0.060) lr:0.01 Loss: 1.6588 (1.9727) TLoss: 0.0053 (0.1386) Accu: 55.97
+Epoch: [13][20/64] Time: 1.233 (1.018) Data: 0.015 (0.039) lr:0.01 Loss: 0.8666 (1.8767) TLoss: 0.0180 (0.1510) Accu: 62.65
+Epoch: [13][30/64] Time: 0.812 (1.039) Data: 0.015 (0.032) lr:0.01 Loss: 1.9518 (1.8657) TLoss: 0.0000 (0.1503) Accu: 61.39
+Epoch: [13][40/64] Time: 1.149 (1.088) Data: 0.015 (0.029) lr:0.01 Loss: 0.7379 (1.7700) TLoss: 0.0000 (0.1237) Accu: 64.44
+Epoch: [13][50/64] Time: 0.675 (1.095) Data: 0.013 (0.027) lr:0.01 Loss: 1.3204 (1.7549) TLoss: 0.0112 (0.1202) Accu: 65.29
+Epoch: [13][60/64] Time: 1.220 (1.105) Data: 0.020 (0.025) lr:0.01 Loss: 0.5295 (1.7098) TLoss: 0.0615 (0.1379) Accu: 66.75
+==> Preparing Data Loader...
+Epoch: [14][0/64] Time: 1.878 (1.878) Data: 0.528 (0.528) lr:0.01 Loss: 1.2079 (1.2079) TLoss: 0.0940 (0.0940) Accu: 79.69
+Epoch: [14][10/64] Time: 1.292 (1.160) Data: 0.013 (0.062) lr:0.01 Loss: 2.4157 (1.5754) TLoss: 0.0000 (0.0781) Accu: 72.30
+Epoch: [14][20/64] Time: 1.192 (1.190) Data: 0.014 (0.041) lr:0.01 Loss: 1.1992 (1.3977) TLoss: 0.0000 (0.0500) Accu: 75.60
+Epoch: [14][30/64] Time: 1.258 (1.138) Data: 0.020 (0.033) lr:0.01 Loss: 0.9480 (1.4714) TLoss: 0.0600 (0.0501) Accu: 73.59
+Epoch: [14][40/64] Time: 0.703 (1.119) Data: 0.014 (0.029) lr:0.01 Loss: 1.4514 (1.4959) TLoss: 0.0000 (0.0821) Accu: 73.59
+Epoch: [14][50/64] Time: 0.761 (1.045) Data: 0.014 (0.026) lr:0.01 Loss: 0.7421 (1.5278) TLoss: 0.0112 (0.0730) Accu: 73.44
+Epoch: [14][60/64] Time: 0.688 (0.998) Data: 0.013 (0.024) lr:0.01 Loss: 0.8954 (1.4912) TLoss: 0.3272 (0.0939) Accu: 73.41
+Test Epoch: 14
+Extracting Gallery Feature...
+Extracting Time:	 3.359
+Extracting Query Feature...
+Extracting Time:	 3.377
+Evaluation Time:	 10.150
+FC:   Rank-1: 84.32% | Rank-10: 95.87% | Rank-20: 97.77%| mAP: 78.02%
+==> Preparing Data Loader...
+Epoch: [15][0/64] Time: 1.326 (1.326) Data: 0.569 (0.569) lr:0.01 Loss: 1.1528 (1.1528) TLoss: 0.0000 (0.0000) Accu: 75.00
+Epoch: [15][10/64] Time: 0.735 (0.792) Data: 0.019 (0.065) lr:0.01 Loss: 1.2663 (1.2903) TLoss: 0.0115 (0.1604) Accu: 80.11
+Epoch: [15][20/64] Time: 0.722 (0.769) Data: 0.013 (0.041) lr:0.01 Loss: 1.1395 (1.2455) TLoss: 0.0408 (0.1235) Accu: 83.41
+Epoch: [15][30/64] Time: 0.690 (0.752) Data: 0.015 (0.032) lr:0.01 Loss: 1.2829 (1.3238) TLoss: 0.0849 (0.1244) Accu: 82.51
+Epoch: [15][40/64] Time: 0.690 (0.736) Data: 0.012 (0.028) lr:0.01 Loss: 2.0485 (1.3839) TLoss: 0.0000 (0.1066) Accu: 79.76
+Epoch: [15][50/64] Time: 0.721 (0.732) Data: 0.015 (0.025) lr:0.01 Loss: 1.4023 (1.4173) TLoss: 0.0000 (0.0948) Accu: 77.70
+Epoch: [15][60/64] Time: 0.689 (0.733) Data: 0.013 (0.023) lr:0.01 Loss: 1.2025 (1.4216) TLoss: 0.0669 (0.0880) Accu: 77.38
+==> Preparing Data Loader...
+Epoch: [16][0/64] Time: 1.226 (1.226) Data: 0.534 (0.534) lr:0.01 Loss: 0.6508 (0.6508) TLoss: 0.0000 (0.0000) Accu: 93.75
+Epoch: [16][10/64] Time: 0.748 (0.749) Data: 0.015 (0.060) lr:0.01 Loss: 0.5621 (1.2361) TLoss: 0.0556 (0.0454) Accu: 79.26
+Epoch: [16][20/64] Time: 0.733 (0.747) Data: 0.017 (0.039) lr:0.01 Loss: 1.0333 (1.2486) TLoss: 0.0000 (0.0596) Accu: 81.10
+Epoch: [16][30/64] Time: 0.698 (0.735) Data: 0.013 (0.031) lr:0.01 Loss: 1.2086 (1.2148) TLoss: 0.0000 (0.0734) Accu: 79.03
+Epoch: [16][40/64] Time: 0.695 (0.720) Data: 0.014 (0.027) lr:0.01 Loss: 1.3768 (1.2090) TLoss: 0.0000 (0.0673) Accu: 78.81
+Epoch: [16][50/64] Time: 1.012 (0.719) Data: 0.013 (0.024) lr:0.01 Loss: 1.9549 (1.2353) TLoss: 0.0080 (0.0547) Accu: 79.35
+Epoch: [16][60/64] Time: 1.136 (0.792) Data: 0.013 (0.023) lr:0.01 Loss: 1.2058 (1.2397) TLoss: 0.0033 (0.0558) Accu: 79.43
+Test Epoch: 16
+Extracting Gallery Feature...
+Extracting Time:	 4.784
+Extracting Query Feature...
+Extracting Time:	 3.801
+Evaluation Time:	 9.984
+FC:   Rank-1: 81.46% | Rank-10: 94.42% | Rank-20: 97.43%| mAP: 76.49%
+==> Preparing Data Loader...
+Epoch: [17][0/64] Time: 1.791 (1.791) Data: 0.520 (0.520) lr:0.01 Loss: 1.8294 (1.8294) TLoss: 0.0801 (0.0801) Accu: 76.56
+Epoch: [17][10/64] Time: 1.255 (1.100) Data: 0.018 (0.063) lr:0.01 Loss: 1.7478 (1.4917) TLoss: 0.0000 (0.0221) Accu: 65.91
+Epoch: [17][20/64] Time: 1.245 (1.144) Data: 0.020 (0.042) lr:0.01 Loss: 0.8663 (1.2823) TLoss: 0.0000 (0.0939) Accu: 74.26
+Epoch: [17][30/64] Time: 0.748 (1.118) Data: 0.015 (0.034) lr:0.01 Loss: 1.1002 (1.2427) TLoss: 0.0000 (0.0687) Accu: 77.42
+Epoch: [17][40/64] Time: 1.204 (1.134) Data: 0.021 (0.030) lr:0.01 Loss: 1.0813 (1.2446) TLoss: 0.8268 (0.0832) Accu: 77.63
+Epoch: [17][50/64] Time: 0.681 (1.135) Data: 0.013 (0.027) lr:0.01 Loss: 0.4863 (1.2445) TLoss: 0.0000 (0.0862) Accu: 78.00
+Epoch: [17][60/64] Time: 1.267 (1.142) Data: 0.020 (0.026) lr:0.01 Loss: 1.2549 (1.2257) TLoss: 0.0026 (0.0887) Accu: 79.05
+==> Preparing Data Loader...
+Epoch: [18][0/64] Time: 1.309 (1.309) Data: 0.572 (0.572) lr:0.01 Loss: 0.8826 (0.8826) TLoss: 0.0000 (0.0000) Accu: 95.31
+Epoch: [18][10/64] Time: 0.731 (0.800) Data: 0.015 (0.066) lr:0.01 Loss: 1.1408 (0.8850) TLoss: 0.0000 (0.0478) Accu: 88.49
+Epoch: [18][20/64] Time: 0.715 (0.766) Data: 0.015 (0.042) lr:0.01 Loss: 0.8200 (0.9051) TLoss: 0.1619 (0.0375) Accu: 87.43
+Epoch: [18][30/64] Time: 0.680 (0.739) Data: 0.013 (0.033) lr:0.01 Loss: 0.4149 (0.9084) TLoss: 0.0305 (0.0440) Accu: 87.55
+Epoch: [18][40/64] Time: 0.703 (0.725) Data: 0.014 (0.028) lr:0.01 Loss: 1.1331 (0.9449) TLoss: 0.0074 (0.0373) Accu: 88.19
+Epoch: [18][50/64] Time: 0.736 (0.727) Data: 0.014 (0.025) lr:0.01 Loss: 0.6917 (0.9230) TLoss: 0.0557 (0.0336) Accu: 88.08
+Epoch: [18][60/64] Time: 0.734 (0.726) Data: 0.013 (0.024) lr:0.01 Loss: 0.5453 (0.9384) TLoss: 0.0000 (0.0290) Accu: 88.04
+Test Epoch: 18
+Extracting Gallery Feature...
+Extracting Time:	 3.391
+Extracting Query Feature...
+Extracting Time:	 3.395
+Evaluation Time:	 10.459
+FC:   Rank-1: 82.23% | Rank-10: 94.17% | Rank-20: 97.52%| mAP: 76.97%
+==> Preparing Data Loader...
+Epoch: [19][0/64] Time: 1.181 (1.181) Data: 0.495 (0.495) lr:0.01 Loss: 0.7259 (0.7259) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [19][10/64] Time: 0.735 (0.750) Data: 0.016 (0.057) lr:0.01 Loss: 1.0450 (0.9118) TLoss: 0.0176 (0.0162) Accu: 86.79
+Epoch: [19][20/64] Time: 0.734 (0.742) Data: 0.016 (0.037) lr:0.01 Loss: 0.4761 (0.8874) TLoss: 0.0000 (0.0654) Accu: 87.50
+Epoch: [19][30/64] Time: 0.675 (0.728) Data: 0.013 (0.029) lr:0.01 Loss: 1.2395 (0.9312) TLoss: 0.3765 (0.0590) Accu: 85.89
+Epoch: [19][40/64] Time: 0.691 (0.718) Data: 0.014 (0.025) lr:0.01 Loss: 0.8746 (0.9003) TLoss: 0.0397 (0.0485) Accu: 87.84
+Epoch: [19][50/64] Time: 0.711 (0.717) Data: 0.013 (0.023) lr:0.01 Loss: 0.6139 (0.8864) TLoss: 0.0000 (0.0472) Accu: 87.35
+Epoch: [19][60/64] Time: 0.693 (0.718) Data: 0.013 (0.021) lr:0.01 Loss: 0.5154 (0.8877) TLoss: 0.0000 (0.0425) Accu: 86.55
+==> Preparing Data Loader...
+Epoch: [20][0/64] Time: 1.164 (1.164) Data: 0.490 (0.490) lr:0.01 Loss: 0.7241 (0.7241) TLoss: 0.0000 (0.0000) Accu: 95.31
+Epoch: [20][10/64] Time: 0.683 (0.726) Data: 0.013 (0.056) lr:0.01 Loss: 0.8938 (0.8231) TLoss: 0.0108 (0.0174) Accu: 91.76
+Epoch: [20][20/64] Time: 1.313 (0.803) Data: 0.014 (0.036) lr:0.01 Loss: 1.2394 (0.8342) TLoss: 0.0613 (0.0158) Accu: 90.25
+Epoch: [20][30/64] Time: 1.297 (0.942) Data: 0.022 (0.030) lr:0.01 Loss: 0.7737 (0.8719) TLoss: 0.0000 (0.0365) Accu: 89.16
+Epoch: [20][40/64] Time: 1.216 (0.985) Data: 0.020 (0.027) lr:0.01 Loss: 1.4139 (0.8618) TLoss: 0.1009 (0.0447) Accu: 89.98
+Epoch: [20][50/64] Time: 1.273 (1.035) Data: 0.020 (0.025) lr:0.01 Loss: 0.8770 (0.8619) TLoss: 0.0000 (0.0369) Accu: 89.28
+Epoch: [20][60/64] Time: 1.190 (1.042) Data: 0.014 (0.023) lr:0.01 Loss: 0.8948 (0.8593) TLoss: 0.0000 (0.0357) Accu: 89.78
+Test Epoch: 20
+Extracting Gallery Feature...
+Extracting Time:	 4.823
+Extracting Query Feature...
+Extracting Time:	 4.801
+Evaluation Time:	 9.959
+FC:   Rank-1: 84.56% | Rank-10: 95.19% | Rank-20: 97.43%| mAP: 79.23%
+==> Preparing Data Loader...
+Epoch: [21][0/64] Time: 1.913 (1.913) Data: 0.542 (0.542) lr:0.01 Loss: 0.9210 (0.9210) TLoss: 0.0095 (0.0095) Accu: 100.00
+Epoch: [21][10/64] Time: 0.717 (1.178) Data: 0.017 (0.065) lr:0.01 Loss: 0.4371 (0.7219) TLoss: 0.0139 (0.1054) Accu: 91.19
+Epoch: [21][20/64] Time: 1.253 (1.195) Data: 0.016 (0.044) lr:0.01 Loss: 0.4741 (0.8184) TLoss: 0.0000 (0.0760) Accu: 89.14
+Epoch: [21][30/64] Time: 0.721 (1.053) Data: 0.015 (0.035) lr:0.01 Loss: 0.6276 (0.8745) TLoss: 0.0000 (0.0963) Accu: 88.51
+Epoch: [21][40/64] Time: 0.743 (0.976) Data: 0.017 (0.031) lr:0.01 Loss: 1.0153 (0.8874) TLoss: 0.0000 (0.0927) Accu: 88.57
+Epoch: [21][50/64] Time: 0.679 (0.922) Data: 0.015 (0.028) lr:0.01 Loss: 1.5437 (0.8816) TLoss: 0.0000 (0.0763) Accu: 89.15
+Epoch: [21][60/64] Time: 0.696 (0.885) Data: 0.015 (0.026) lr:0.01 Loss: 0.8133 (0.8839) TLoss: 0.0000 (0.0643) Accu: 88.76
+==> Preparing Data Loader...
+Epoch: [22][0/64] Time: 1.268 (1.268) Data: 0.520 (0.520) lr:0.01 Loss: 0.5606 (0.5606) TLoss: 0.0000 (0.0000) Accu: 93.75
+Epoch: [22][10/64] Time: 0.769 (0.792) Data: 0.015 (0.062) lr:0.01 Loss: 0.5848 (0.5643) TLoss: 0.0000 (0.0001) Accu: 92.47
+Epoch: [22][20/64] Time: 0.750 (0.760) Data: 0.015 (0.039) lr:0.01 Loss: 0.6994 (0.6524) TLoss: 0.0000 (0.0212) Accu: 93.01
+Epoch: [22][30/64] Time: 0.771 (0.754) Data: 0.016 (0.031) lr:0.01 Loss: 0.5733 (0.6827) TLoss: 0.0000 (0.0291) Accu: 94.05
+Epoch: [22][40/64] Time: 0.675 (0.744) Data: 0.012 (0.027) lr:0.01 Loss: 0.3960 (0.6581) TLoss: 0.0000 (0.0260) Accu: 94.13
+Epoch: [22][50/64] Time: 0.719 (0.731) Data: 0.014 (0.024) lr:0.01 Loss: 0.3641 (0.6641) TLoss: 0.0024 (0.0296) Accu: 93.75
+Epoch: [22][60/64] Time: 0.726 (0.731) Data: 0.014 (0.023) lr:0.01 Loss: 0.8268 (0.6882) TLoss: 0.0000 (0.0320) Accu: 93.47
+Test Epoch: 22
+Extracting Gallery Feature...
+Extracting Time:	 3.354
+Extracting Query Feature...
+Extracting Time:	 3.349
+Evaluation Time:	 10.758
+FC:   Rank-1: 84.61% | Rank-10: 96.17% | Rank-20: 98.50%| mAP: 79.81%
+==> Preparing Data Loader...
+Epoch: [23][0/64] Time: 1.309 (1.309) Data: 0.542 (0.542) lr:0.01 Loss: 0.5676 (0.5676) TLoss: 0.1750 (0.1750) Accu: 96.88
+Epoch: [23][10/64] Time: 0.675 (0.768) Data: 0.013 (0.061) lr:0.01 Loss: 1.1557 (0.6586) TLoss: 0.0000 (0.0161) Accu: 91.19
+Epoch: [23][20/64] Time: 0.688 (0.728) Data: 0.013 (0.038) lr:0.01 Loss: 0.8300 (0.6593) TLoss: 0.0000 (0.0096) Accu: 93.97
+Epoch: [23][30/64] Time: 1.202 (0.744) Data: 0.019 (0.030) lr:0.01 Loss: 0.7959 (0.6934) TLoss: 0.0106 (0.0081) Accu: 93.55
+Epoch: [23][40/64] Time: 1.321 (0.855) Data: 0.014 (0.027) lr:0.01 Loss: 0.6037 (0.6905) TLoss: 0.0000 (0.0150) Accu: 93.83
+Epoch: [23][50/64] Time: 0.786 (0.897) Data: 0.013 (0.025) lr:0.01 Loss: 0.8809 (0.6768) TLoss: 0.0000 (0.0135) Accu: 93.78
+Epoch: [23][60/64] Time: 1.269 (0.945) Data: 0.013 (0.024) lr:0.01 Loss: 0.5809 (0.6566) TLoss: 0.0000 (0.0115) Accu: 93.44
+==> Preparing Data Loader...
+Epoch: [24][0/64] Time: 1.671 (1.671) Data: 0.528 (0.528) lr:0.01 Loss: 0.7389 (0.7389) TLoss: 0.0000 (0.0000) Accu: 71.88
+Epoch: [24][10/64] Time: 1.215 (1.158) Data: 0.018 (0.061) lr:0.01 Loss: 0.2729 (0.5757) TLoss: 0.0000 (0.0727) Accu: 92.76
+Epoch: [24][20/64] Time: 1.266 (1.192) Data: 0.014 (0.040) lr:0.01 Loss: 0.4523 (0.5625) TLoss: 0.0000 (0.0392) Accu: 95.39
+Epoch: [24][30/64] Time: 1.202 (1.154) Data: 0.020 (0.033) lr:0.01 Loss: 0.5197 (0.5609) TLoss: 0.0053 (0.0304) Accu: 94.71
+Epoch: [24][40/64] Time: 1.189 (1.169) Data: 0.020 (0.029) lr:0.01 Loss: 0.7714 (0.5763) TLoss: 0.0000 (0.0255) Accu: 93.83
+Epoch: [24][50/64] Time: 1.198 (1.152) Data: 0.020 (0.026) lr:0.01 Loss: 0.3884 (0.5794) TLoss: 0.0000 (0.0362) Accu: 94.03
+Epoch: [24][60/64] Time: 0.723 (1.149) Data: 0.012 (0.025) lr:0.01 Loss: 0.6238 (0.5982) TLoss: 0.0000 (0.0383) Accu: 93.95
+Test Epoch: 24
+Extracting Gallery Feature...
+Extracting Time:	 3.497
+Extracting Query Feature...
+Extracting Time:	 4.691
+Evaluation Time:	 10.811
+FC:   Rank-1: 85.92% | Rank-10: 96.41% | Rank-20: 98.25%| mAP: 80.69%
+==> Preparing Data Loader...
+Epoch: [25][0/64] Time: 1.278 (1.278) Data: 0.561 (0.561) lr:0.01 Loss: 0.5329 (0.5329) TLoss: 0.0000 (0.0000) Accu: 95.31
+Epoch: [25][10/64] Time: 0.823 (0.767) Data: 0.015 (0.063) lr:0.01 Loss: 0.6035 (0.5329) TLoss: 0.0000 (0.0308) Accu: 95.31
+Epoch: [25][20/64] Time: 0.726 (0.757) Data: 0.016 (0.040) lr:0.01 Loss: 0.3577 (0.6000) TLoss: 0.0000 (0.0318) Accu: 93.90
+Epoch: [25][30/64] Time: 0.739 (0.746) Data: 0.013 (0.032) lr:0.01 Loss: 0.7162 (0.6248) TLoss: 0.0865 (0.0342) Accu: 92.64
+Epoch: [25][40/64] Time: 0.720 (0.744) Data: 0.013 (0.028) lr:0.01 Loss: 0.9699 (0.6230) TLoss: 0.0000 (0.0274) Accu: 92.64
+Epoch: [25][50/64] Time: 0.698 (0.741) Data: 0.013 (0.025) lr:0.01 Loss: 0.4624 (0.5866) TLoss: 0.0054 (0.0222) Accu: 93.60
+Epoch: [25][60/64] Time: 0.685 (0.732) Data: 0.014 (0.023) lr:0.01 Loss: 0.4998 (0.5719) TLoss: 0.2621 (0.0288) Accu: 94.31
+==> Preparing Data Loader...
+Epoch: [26][0/64] Time: 1.338 (1.338) Data: 0.564 (0.564) lr:0.01 Loss: 0.3796 (0.3796) TLoss: 0.0000 (0.0000) Accu: 98.44
+Epoch: [26][10/64] Time: 0.754 (0.786) Data: 0.013 (0.064) lr:0.01 Loss: 0.3838 (0.5493) TLoss: 0.0000 (0.0273) Accu: 94.46
+Epoch: [26][20/64] Time: 0.675 (0.743) Data: 0.012 (0.040) lr:0.01 Loss: 0.5076 (0.5125) TLoss: 0.0000 (0.0146) Accu: 96.28
+Epoch: [26][30/64] Time: 0.730 (0.732) Data: 0.016 (0.031) lr:0.01 Loss: 0.2814 (0.5003) TLoss: 0.0000 (0.0105) Accu: 95.41
+Epoch: [26][40/64] Time: 0.734 (0.732) Data: 0.014 (0.027) lr:0.01 Loss: 0.4387 (0.4946) TLoss: 0.0002 (0.0081) Accu: 95.73
+Epoch: [26][50/64] Time: 0.689 (0.724) Data: 0.012 (0.024) lr:0.01 Loss: 0.6623 (0.4862) TLoss: 0.0000 (0.0091) Accu: 95.80
+Epoch: [26][60/64] Time: 0.677 (0.717) Data: 0.012 (0.023) lr:0.01 Loss: 0.9447 (0.5094) TLoss: 0.0000 (0.0087) Accu: 95.67
+Test Epoch: 26
+Extracting Gallery Feature...
+Extracting Time:	 4.241
+Extracting Query Feature...
+Extracting Time:	 4.890
+Evaluation Time:	 10.190
+FC:   Rank-1: 83.59% | Rank-10: 94.85% | Rank-20: 97.57%| mAP: 79.33%
+==> Preparing Data Loader...
+Epoch: [27][0/64] Time: 1.818 (1.818) Data: 0.591 (0.591) lr:0.01 Loss: 0.2896 (0.2896) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [27][10/64] Time: 1.147 (1.088) Data: 0.020 (0.069) lr:0.01 Loss: 0.6473 (0.4102) TLoss: 0.0000 (0.0136) Accu: 98.01
+Epoch: [27][20/64] Time: 1.262 (1.147) Data: 0.013 (0.043) lr:0.01 Loss: 0.6106 (0.4354) TLoss: 0.0000 (0.0072) Accu: 97.77
+Epoch: [27][30/64] Time: 1.225 (1.119) Data: 0.020 (0.034) lr:0.01 Loss: 0.3306 (0.4327) TLoss: 0.0000 (0.0059) Accu: 98.03
+Epoch: [27][40/64] Time: 1.294 (1.135) Data: 0.013 (0.030) lr:0.01 Loss: 0.5432 (0.4524) TLoss: 0.0000 (0.0047) Accu: 97.71
+Epoch: [27][50/64] Time: 1.273 (1.126) Data: 0.013 (0.027) lr:0.01 Loss: 0.2895 (0.4623) TLoss: 0.0000 (0.0059) Accu: 97.52
+Epoch: [27][60/64] Time: 1.154 (1.142) Data: 0.020 (0.026) lr:0.01 Loss: 0.4511 (0.4487) TLoss: 0.0971 (0.0073) Accu: 97.52
+==> Preparing Data Loader...
+Epoch: [28][0/64] Time: 1.271 (1.271) Data: 0.561 (0.561) lr:0.01 Loss: 0.5031 (0.5031) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [28][10/64] Time: 1.145 (1.183) Data: 0.019 (0.066) lr:0.01 Loss: 0.4906 (0.4005) TLoss: 0.0920 (0.0138) Accu: 99.15
+Epoch: [28][20/64] Time: 0.720 (1.018) Data: 0.014 (0.041) lr:0.01 Loss: 0.6914 (0.3948) TLoss: 0.0000 (0.0076) Accu: 98.14
+Epoch: [28][30/64] Time: 0.721 (0.923) Data: 0.014 (0.033) lr:0.01 Loss: 0.1742 (0.3624) TLoss: 0.0000 (0.0066) Accu: 98.39
+Epoch: [28][40/64] Time: 0.701 (0.869) Data: 0.013 (0.028) lr:0.01 Loss: 0.3324 (0.3645) TLoss: 0.0000 (0.0113) Accu: 98.17
+Epoch: [28][50/64] Time: 0.667 (0.832) Data: 0.014 (0.025) lr:0.01 Loss: 0.2929 (0.3888) TLoss: 0.0000 (0.0102) Accu: 97.37
+Epoch: [28][60/64] Time: 0.725 (0.811) Data: 0.016 (0.023) lr:0.01 Loss: 0.2999 (0.3907) TLoss: 0.0000 (0.0088) Accu: 97.18
+Test Epoch: 28
+Extracting Gallery Feature...
+Extracting Time:	 3.463
+Extracting Query Feature...
+Extracting Time:	 3.418
+Evaluation Time:	 11.209
+FC:   Rank-1: 83.93% | Rank-10: 95.24% | Rank-20: 97.96%| mAP: 80.17%
+==> Preparing Data Loader...
+Epoch: [29][0/64] Time: 1.321 (1.321) Data: 0.535 (0.535) lr:0.01 Loss: 0.5574 (0.5574) TLoss: 0.0188 (0.0188) Accu: 96.88
+Epoch: [29][10/64] Time: 0.736 (0.772) Data: 0.013 (0.060) lr:0.01 Loss: 0.3469 (0.3631) TLoss: 0.0000 (0.0018) Accu: 97.59
+Epoch: [29][20/64] Time: 0.678 (0.726) Data: 0.012 (0.038) lr:0.01 Loss: 0.7194 (0.4022) TLoss: 0.0000 (0.0016) Accu: 96.95
+Epoch: [29][30/64] Time: 0.723 (0.727) Data: 0.014 (0.030) lr:0.01 Loss: 0.2939 (0.4210) TLoss: 0.0000 (0.0100) Accu: 96.57
+Epoch: [29][40/64] Time: 0.741 (0.729) Data: 0.014 (0.026) lr:0.01 Loss: 0.2889 (0.3982) TLoss: 0.0000 (0.0088) Accu: 97.10
+Epoch: [29][50/64] Time: 0.694 (0.721) Data: 0.013 (0.024) lr:0.01 Loss: 0.2040 (0.3829) TLoss: 0.0000 (0.0124) Accu: 97.43
+Epoch: [29][60/64] Time: 0.707 (0.722) Data: 0.013 (0.022) lr:0.01 Loss: 0.2476 (0.3726) TLoss: 0.0000 (0.0104) Accu: 97.57
+==> Preparing Data Loader...
+Epoch: [30][0/64] Time: 1.264 (1.264) Data: 0.534 (0.534) lr:0.001 Loss: 0.8383 (0.8383) TLoss: 0.0000 (0.0000) Accu: 96.88
+Epoch: [30][10/64] Time: 0.724 (0.777) Data: 0.012 (0.060) lr:0.001 Loss: 0.2611 (0.4398) TLoss: 0.0000 (0.0143) Accu: 98.44
+Epoch: [30][20/64] Time: 0.681 (0.731) Data: 0.012 (0.038) lr:0.001 Loss: 0.4291 (0.3660) TLoss: 0.0000 (0.0082) Accu: 98.36
+Epoch: [30][30/64] Time: 0.703 (0.717) Data: 0.013 (0.030) lr:0.001 Loss: 0.3679 (0.3641) TLoss: 0.0000 (0.0113) Accu: 98.29
+Epoch: [30][40/64] Time: 1.229 (0.815) Data: 0.020 (0.027) lr:0.001 Loss: 0.2189 (0.3647) TLoss: 0.0000 (0.0085) Accu: 97.94
+Epoch: [30][50/64] Time: 0.887 (0.889) Data: 0.019 (0.025) lr:0.001 Loss: 0.2200 (0.3560) TLoss: 0.0107 (0.0071) Accu: 98.01
+Epoch: [30][60/64] Time: 1.157 (0.921) Data: 0.020 (0.024) lr:0.001 Loss: 0.2246 (0.3496) TLoss: 0.0000 (0.0065) Accu: 97.93
+Test Epoch: 30
+Extracting Gallery Feature...
+Extracting Time:	 4.785
+Extracting Query Feature...
+Extracting Time:	 4.349
+Evaluation Time:	 11.104
+FC:   Rank-1: 85.87% | Rank-10: 96.07% | Rank-20: 97.72%| mAP: 81.12%
+==> Preparing Data Loader...
+Epoch: [31][0/64] Time: 1.753 (1.753) Data: 0.542 (0.542) lr:0.001 Loss: 0.3033 (0.3033) TLoss: 0.0000 (0.0000) Accu: 98.44
+Epoch: [31][10/64] Time: 1.184 (1.149) Data: 0.017 (0.066) lr:0.001 Loss: 0.3751 (0.3044) TLoss: 0.0000 (0.0000) Accu: 97.59
+Epoch: [31][20/64] Time: 1.210 (1.184) Data: 0.019 (0.043) lr:0.001 Loss: 0.1616 (0.2825) TLoss: 0.0000 (0.0014) Accu: 97.47
+Epoch: [31][30/64] Time: 1.207 (1.156) Data: 0.020 (0.035) lr:0.001 Loss: 0.1828 (0.2749) TLoss: 0.0000 (0.0130) Accu: 98.14
+Epoch: [31][40/64] Time: 1.245 (1.183) Data: 0.022 (0.031) lr:0.001 Loss: 0.4539 (0.2791) TLoss: 0.0000 (0.0134) Accu: 98.32
+Epoch: [31][50/64] Time: 0.720 (1.103) Data: 0.017 (0.029) lr:0.001 Loss: 0.2734 (0.2829) TLoss: 0.0000 (0.0111) Accu: 98.53
+Epoch: [31][60/64] Time: 0.714 (1.040) Data: 0.015 (0.027) lr:0.001 Loss: 0.2527 (0.2831) TLoss: 0.0000 (0.0093) Accu: 98.64
+==> Preparing Data Loader...
+Epoch: [32][0/64] Time: 1.190 (1.190) Data: 0.518 (0.518) lr:0.001 Loss: 0.2287 (0.2287) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [32][10/64] Time: 0.680 (0.726) Data: 0.014 (0.060) lr:0.001 Loss: 0.2840 (0.2270) TLoss: 0.0000 (0.0001) Accu: 99.43
+Epoch: [32][20/64] Time: 0.690 (0.704) Data: 0.015 (0.038) lr:0.001 Loss: 0.1993 (0.2652) TLoss: 0.0000 (0.0220) Accu: 99.18
+Epoch: [32][30/64] Time: 0.751 (0.707) Data: 0.015 (0.031) lr:0.001 Loss: 0.3415 (0.2634) TLoss: 0.0000 (0.0159) Accu: 99.29
+Epoch: [32][40/64] Time: 0.760 (0.711) Data: 0.018 (0.027) lr:0.001 Loss: 0.1494 (0.2600) TLoss: 0.0000 (0.0137) Accu: 99.20
+Epoch: [32][50/64] Time: 0.745 (0.716) Data: 0.016 (0.025) lr:0.001 Loss: 0.2453 (0.2601) TLoss: 0.0000 (0.0182) Accu: 99.26
+Epoch: [32][60/64] Time: 0.678 (0.718) Data: 0.015 (0.023) lr:0.001 Loss: 0.1117 (0.2568) TLoss: 0.0000 (0.0152) Accu: 99.23
+Test Epoch: 32
+Extracting Gallery Feature...
+Extracting Time:	 3.421
+Extracting Query Feature...
+Extracting Time:	 3.509
+Evaluation Time:	 11.036
+FC:   Rank-1: 85.68% | Rank-10: 95.58% | Rank-20: 97.62%| mAP: 81.23%
+==> Preparing Data Loader...
+Epoch: [33][0/64] Time: 1.252 (1.252) Data: 0.528 (0.528) lr:0.001 Loss: 0.2490 (0.2490) TLoss: 0.0159 (0.0159) Accu: 98.44
+Epoch: [33][10/64] Time: 0.700 (0.739) Data: 0.015 (0.061) lr:0.001 Loss: 0.2121 (0.2455) TLoss: 0.0000 (0.0020) Accu: 99.29
+Epoch: [33][20/64] Time: 0.753 (0.740) Data: 0.016 (0.039) lr:0.001 Loss: 0.1688 (0.2455) TLoss: 0.0000 (0.0040) Accu: 99.18
+Epoch: [33][30/64] Time: 0.737 (0.743) Data: 0.016 (0.031) lr:0.001 Loss: 0.2131 (0.2564) TLoss: 0.0000 (0.0032) Accu: 98.94
+Epoch: [33][40/64] Time: 0.694 (0.729) Data: 0.015 (0.027) lr:0.001 Loss: 0.1603 (0.2493) TLoss: 0.0000 (0.0037) Accu: 99.09
+Epoch: [33][50/64] Time: 0.711 (0.722) Data: 0.015 (0.024) lr:0.001 Loss: 0.1690 (0.2511) TLoss: 0.0000 (0.0030) Accu: 98.47
+Epoch: [33][60/64] Time: 1.304 (0.778) Data: 0.016 (0.023) lr:0.001 Loss: 0.1789 (0.2467) TLoss: 0.0000 (0.0027) Accu: 98.64
+==> Preparing Data Loader...
+Epoch: [34][0/64] Time: 1.861 (1.861) Data: 0.549 (0.549) lr:0.001 Loss: 0.4845 (0.4845) TLoss: 0.0000 (0.0000) Accu: 96.88
+Epoch: [34][10/64] Time: 1.178 (1.146) Data: 0.021 (0.065) lr:0.001 Loss: 0.1438 (0.2535) TLoss: 0.0000 (0.0059) Accu: 99.15
+Epoch: [34][20/64] Time: 1.250 (1.159) Data: 0.015 (0.043) lr:0.001 Loss: 0.2945 (0.2454) TLoss: 0.0000 (0.0063) Accu: 99.40
+Epoch: [34][30/64] Time: 1.127 (1.124) Data: 0.016 (0.035) lr:0.001 Loss: 0.3153 (0.2375) TLoss: 0.0000 (0.0042) Accu: 99.55
+Epoch: [34][40/64] Time: 1.227 (1.136) Data: 0.015 (0.031) lr:0.001 Loss: 0.1372 (0.2626) TLoss: 0.0000 (0.0037) Accu: 99.01
+Epoch: [34][50/64] Time: 1.067 (1.114) Data: 0.015 (0.028) lr:0.001 Loss: 0.4878 (0.2679) TLoss: 0.0000 (0.0049) Accu: 99.02
+Epoch: [34][60/64] Time: 1.145 (1.119) Data: 0.014 (0.026) lr:0.001 Loss: 0.1963 (0.2610) TLoss: 0.0000 (0.0047) Accu: 99.15
+Test Epoch: 34
+Extracting Gallery Feature...
+Extracting Time:	 4.889
+Extracting Query Feature...
+Extracting Time:	 4.037
+Evaluation Time:	 10.057
+FC:   Rank-1: 85.78% | Rank-10: 96.21% | Rank-20: 98.40%| mAP: 81.21%
+==> Preparing Data Loader...
+Epoch: [35][0/64] Time: 1.669 (1.669) Data: 0.533 (0.533) lr:0.001 Loss: 0.2384 (0.2384) TLoss: 0.0000 (0.0000) Accu: 98.44
+Epoch: [35][10/64] Time: 0.757 (0.921) Data: 0.015 (0.064) lr:0.001 Loss: 0.3524 (0.2228) TLoss: 0.0000 (0.0000) Accu: 99.43
+Epoch: [35][20/64] Time: 0.714 (0.828) Data: 0.014 (0.041) lr:0.001 Loss: 0.1935 (0.2495) TLoss: 0.0000 (0.0205) Accu: 98.81
+Epoch: [35][30/64] Time: 0.671 (0.784) Data: 0.015 (0.033) lr:0.001 Loss: 0.2257 (0.2453) TLoss: 0.0000 (0.0139) Accu: 98.79
+Epoch: [35][40/64] Time: 0.674 (0.757) Data: 0.015 (0.028) lr:0.001 Loss: 0.2897 (0.2467) TLoss: 0.0000 (0.0108) Accu: 99.09
+Epoch: [35][50/64] Time: 0.744 (0.745) Data: 0.018 (0.026) lr:0.001 Loss: 0.1881 (0.2394) TLoss: 0.0000 (0.0094) Accu: 99.08
+Epoch: [35][60/64] Time: 0.704 (0.742) Data: 0.014 (0.024) lr:0.001 Loss: 0.1121 (0.2454) TLoss: 0.0000 (0.0089) Accu: 98.95
+==> Preparing Data Loader...
+Epoch: [36][0/64] Time: 1.202 (1.202) Data: 0.519 (0.519) lr:0.001 Loss: 0.1304 (0.1304) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [36][10/64] Time: 0.706 (0.778) Data: 0.014 (0.061) lr:0.001 Loss: 0.2433 (0.2174) TLoss: 0.0000 (0.0022) Accu: 99.72
+Epoch: [36][20/64] Time: 0.682 (0.753) Data: 0.013 (0.039) lr:0.001 Loss: 0.1626 (0.2384) TLoss: 0.0000 (0.0021) Accu: 99.55
+Epoch: [36][30/64] Time: 0.683 (0.730) Data: 0.013 (0.031) lr:0.001 Loss: 0.2099 (0.2462) TLoss: 0.0435 (0.0033) Accu: 99.65
+Epoch: [36][40/64] Time: 0.772 (0.737) Data: 0.013 (0.027) lr:0.001 Loss: 0.1746 (0.2441) TLoss: 0.0167 (0.0029) Accu: 99.58
+Epoch: [36][50/64] Time: 0.664 (0.730) Data: 0.014 (0.025) lr:0.001 Loss: 0.1416 (0.2451) TLoss: 0.0237 (0.0077) Accu: 99.48
+Epoch: [36][60/64] Time: 0.709 (0.721) Data: 0.014 (0.023) lr:0.001 Loss: 0.3983 (0.2546) TLoss: 0.0000 (0.0183) Accu: 99.26
+Test Epoch: 36
+Extracting Gallery Feature...
+Extracting Time:	 3.398
+Extracting Query Feature...
+Extracting Time:	 3.432
+Evaluation Time:	 9.855
+FC:   Rank-1: 86.21% | Rank-10: 95.92% | Rank-20: 98.16%| mAP: 81.78%
+==> Preparing Data Loader...
+Epoch: [37][0/64] Time: 1.201 (1.201) Data: 0.518 (0.518) lr:0.001 Loss: 0.1434 (0.1434) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [37][10/64] Time: 1.142 (0.864) Data: 0.015 (0.060) lr:0.001 Loss: 0.1565 (0.2097) TLoss: 0.0000 (0.0022) Accu: 99.72
+Epoch: [37][20/64] Time: 1.156 (1.013) Data: 0.014 (0.040) lr:0.001 Loss: 0.1998 (0.2178) TLoss: 0.0004 (0.0012) Accu: 99.85
+Epoch: [37][30/64] Time: 1.143 (1.021) Data: 0.014 (0.032) lr:0.001 Loss: 0.2999 (0.2261) TLoss: 0.0000 (0.0145) Accu: 99.65
+Epoch: [37][40/64] Time: 1.250 (1.059) Data: 0.015 (0.029) lr:0.001 Loss: 0.1959 (0.2163) TLoss: 0.0000 (0.0109) Accu: 99.66
+Epoch: [37][50/64] Time: 1.160 (1.054) Data: 0.014 (0.027) lr:0.001 Loss: 0.1574 (0.2157) TLoss: 0.0000 (0.0088) Accu: 99.48
+Epoch: [37][60/64] Time: 1.154 (1.072) Data: 0.020 (0.025) lr:0.001 Loss: 0.3928 (0.2195) TLoss: 0.0000 (0.0180) Accu: 99.44
+==> Preparing Data Loader...
+Epoch: [38][0/64] Time: 1.709 (1.709) Data: 0.570 (0.570) lr:0.001 Loss: 0.1686 (0.1686) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [38][10/64] Time: 1.156 (1.099) Data: 0.020 (0.067) lr:0.001 Loss: 0.1809 (0.2282) TLoss: 0.0000 (0.0032) Accu: 99.57
+Epoch: [38][20/64] Time: 1.144 (1.128) Data: 0.022 (0.045) lr:0.001 Loss: 0.2676 (0.2397) TLoss: 0.0000 (0.0042) Accu: 99.33
+Epoch: [38][30/64] Time: 1.163 (1.104) Data: 0.023 (0.036) lr:0.001 Loss: 0.2473 (0.2311) TLoss: 0.0000 (0.0031) Accu: 99.50
+Epoch: [38][40/64] Time: 1.223 (1.125) Data: 0.013 (0.031) lr:0.001 Loss: 0.2440 (0.2197) TLoss: 0.0000 (0.0112) Accu: 99.62
+Epoch: [38][50/64] Time: 0.729 (1.055) Data: 0.014 (0.028) lr:0.001 Loss: 0.1493 (0.2214) TLoss: 0.0000 (0.0095) Accu: 99.69
+Epoch: [38][60/64] Time: 0.712 (1.000) Data: 0.015 (0.026) lr:0.001 Loss: 0.2289 (0.2272) TLoss: 0.0000 (0.0124) Accu: 99.49
+Test Epoch: 38
+Extracting Gallery Feature...
+Extracting Time:	 3.629
+Extracting Query Feature...
+Extracting Time:	 3.488
+Evaluation Time:	 9.792
+FC:   Rank-1: 87.04% | Rank-10: 96.65% | Rank-20: 98.25%| mAP: 82.02%
+==> Preparing Data Loader...
+Epoch: [39][0/64] Time: 1.276 (1.276) Data: 0.556 (0.556) lr:0.001 Loss: 0.1334 (0.1334) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [39][10/64] Time: 0.714 (0.766) Data: 0.014 (0.064) lr:0.001 Loss: 0.3006 (0.1625) TLoss: 0.0000 (0.0000) Accu: 99.72
+Epoch: [39][20/64] Time: 0.716 (0.746) Data: 0.014 (0.041) lr:0.001 Loss: 0.2065 (0.1830) TLoss: 0.0000 (0.0000) Accu: 99.85
+Epoch: [39][30/64] Time: 0.735 (0.740) Data: 0.015 (0.032) lr:0.001 Loss: 0.2573 (0.1924) TLoss: 0.0000 (0.0000) Accu: 99.60
+Epoch: [39][40/64] Time: 0.689 (0.726) Data: 0.014 (0.028) lr:0.001 Loss: 0.1936 (0.1994) TLoss: 0.0000 (0.0018) Accu: 99.66
+Epoch: [39][50/64] Time: 0.720 (0.725) Data: 0.014 (0.025) lr:0.001 Loss: 0.2658 (0.2102) TLoss: 0.0059 (0.0015) Accu: 99.23
+Epoch: [39][60/64] Time: 0.679 (0.726) Data: 0.013 (0.024) lr:0.001 Loss: 0.4718 (0.2203) TLoss: 0.0303 (0.0018) Accu: 99.15
+==> Preparing Data Loader...
+Epoch: [40][0/64] Time: 1.190 (1.190) Data: 0.504 (0.504) lr:0.001 Loss: 0.4286 (0.4286) TLoss: 0.0468 (0.0468) Accu: 100.00
+Epoch: [40][10/64] Time: 0.677 (0.736) Data: 0.013 (0.058) lr:0.001 Loss: 0.1736 (0.2207) TLoss: 0.0000 (0.0087) Accu: 99.72
+Epoch: [40][20/64] Time: 0.716 (0.726) Data: 0.014 (0.037) lr:0.001 Loss: 0.3002 (0.2237) TLoss: 0.0000 (0.0057) Accu: 99.26
+Epoch: [40][30/64] Time: 0.738 (0.727) Data: 0.016 (0.030) lr:0.001 Loss: 0.2161 (0.2281) TLoss: 0.0071 (0.0143) Accu: 98.79
+Epoch: [40][40/64] Time: 0.655 (0.715) Data: 0.013 (0.026) lr:0.001 Loss: 0.1564 (0.2173) TLoss: 0.0000 (0.0110) Accu: 98.89
+Epoch: [40][50/64] Time: 0.726 (0.708) Data: 0.016 (0.024) lr:0.001 Loss: 0.1892 (0.2167) TLoss: 0.0000 (0.0089) Accu: 99.05
+Epoch: [40][60/64] Time: 1.214 (0.765) Data: 0.014 (0.022) lr:0.001 Loss: 0.2461 (0.2208) TLoss: 0.0000 (0.0074) Accu: 98.90
+Test Epoch: 40
+Extracting Gallery Feature...
+Extracting Time:	 4.829
+Extracting Query Feature...
+Extracting Time:	 4.794
+Evaluation Time:	 10.330
+FC:   Rank-1: 86.55% | Rank-10: 96.41% | Rank-20: 98.59%| mAP: 82.23%
+==> Preparing Data Loader...
+Epoch: [41][0/64] Time: 1.818 (1.818) Data: 0.592 (0.592) lr:0.001 Loss: 0.1258 (0.1258) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [41][10/64] Time: 1.289 (1.128) Data: 0.013 (0.069) lr:0.001 Loss: 0.1875 (0.2024) TLoss: 0.0000 (0.0125) Accu: 99.57
+Epoch: [41][20/64] Time: 1.187 (1.162) Data: 0.020 (0.045) lr:0.001 Loss: 0.1981 (0.2400) TLoss: 0.0000 (0.0083) Accu: 98.88
+Epoch: [41][30/64] Time: 1.211 (1.123) Data: 0.018 (0.036) lr:0.001 Loss: 0.2666 (0.2363) TLoss: 0.0000 (0.0056) Accu: 98.34
+Epoch: [41][40/64] Time: 1.208 (1.130) Data: 0.022 (0.032) lr:0.001 Loss: 0.3126 (0.2479) TLoss: 0.0000 (0.0056) Accu: 98.59
+Epoch: [41][50/64] Time: 0.697 (1.110) Data: 0.016 (0.029) lr:0.001 Loss: 0.2238 (0.2369) TLoss: 0.0000 (0.0045) Accu: 98.87
+Epoch: [41][60/64] Time: 0.967 (1.117) Data: 0.013 (0.027) lr:0.001 Loss: 0.8253 (0.2390) TLoss: 0.0074 (0.0039) Accu: 99.00
+==> Preparing Data Loader...
+Epoch: [42][0/64] Time: 1.202 (1.202) Data: 0.509 (0.509) lr:0.001 Loss: 0.1607 (0.1607) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [42][10/64] Time: 0.704 (0.760) Data: 0.015 (0.061) lr:0.001 Loss: 0.2833 (0.2204) TLoss: 0.0000 (0.0001) Accu: 99.29
+Epoch: [42][20/64] Time: 0.717 (0.746) Data: 0.016 (0.040) lr:0.001 Loss: 0.1874 (0.2121) TLoss: 0.0000 (0.0001) Accu: 99.55
+Epoch: [42][30/64] Time: 0.679 (0.725) Data: 0.015 (0.032) lr:0.001 Loss: 0.2248 (0.1999) TLoss: 0.0000 (0.0000) Accu: 99.65
+Epoch: [42][40/64] Time: 0.674 (0.712) Data: 0.014 (0.027) lr:0.001 Loss: 0.1640 (0.2018) TLoss: 0.0000 (0.0018) Accu: 99.66
+Epoch: [42][50/64] Time: 0.743 (0.713) Data: 0.017 (0.025) lr:0.001 Loss: 0.1209 (0.2042) TLoss: 0.0000 (0.0014) Accu: 99.42
+Epoch: [42][60/64] Time: 0.707 (0.716) Data: 0.013 (0.024) lr:0.001 Loss: 0.2151 (0.1989) TLoss: 0.0013 (0.0012) Accu: 99.51
+Test Epoch: 42
+Extracting Gallery Feature...
+Extracting Time:	 3.521
+Extracting Query Feature...
+Extracting Time:	 3.430
+Evaluation Time:	 9.898
+FC:   Rank-1: 86.36% | Rank-10: 95.73% | Rank-20: 98.20%| mAP: 81.85%
+==> Preparing Data Loader...
+Epoch: [43][0/64] Time: 1.193 (1.193) Data: 0.502 (0.502) lr:0.001 Loss: 0.3138 (0.3138) TLoss: 0.0023 (0.0023) Accu: 100.00
+Epoch: [43][10/64] Time: 0.709 (0.729) Data: 0.016 (0.058) lr:0.001 Loss: 0.1401 (0.2660) TLoss: 0.0000 (0.0002) Accu: 97.30
+Epoch: [43][20/64] Time: 0.711 (0.719) Data: 0.015 (0.038) lr:0.001 Loss: 0.1456 (0.2304) TLoss: 0.0000 (0.0001) Accu: 98.59
+Epoch: [43][30/64] Time: 0.742 (0.716) Data: 0.015 (0.031) lr:0.001 Loss: 0.1844 (0.2128) TLoss: 0.0000 (0.0004) Accu: 99.04
+Epoch: [43][40/64] Time: 0.653 (0.719) Data: 0.012 (0.027) lr:0.001 Loss: 0.2464 (0.2221) TLoss: 0.3117 (0.0100) Accu: 98.93
+Epoch: [43][50/64] Time: 0.732 (0.717) Data: 0.015 (0.025) lr:0.001 Loss: 0.3083 (0.2236) TLoss: 0.0000 (0.0145) Accu: 98.99
+Epoch: [43][60/64] Time: 0.696 (0.715) Data: 0.013 (0.023) lr:0.001 Loss: 0.2321 (0.2210) TLoss: 0.0000 (0.0145) Accu: 99.13
+==> Preparing Data Loader...
+Epoch: [44][0/64] Time: 1.165 (1.165) Data: 0.490 (0.490) lr:0.001 Loss: 0.1761 (0.1761) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [44][10/64] Time: 0.681 (0.728) Data: 0.015 (0.057) lr:0.001 Loss: 0.3719 (0.2295) TLoss: 0.0000 (0.0001) Accu: 99.57
+Epoch: [44][20/64] Time: 0.701 (0.729) Data: 0.014 (0.036) lr:0.001 Loss: 0.1271 (0.2256) TLoss: 0.0067 (0.0212) Accu: 99.48
+Epoch: [44][30/64] Time: 0.698 (0.713) Data: 0.013 (0.029) lr:0.001 Loss: 0.1257 (0.2162) TLoss: 0.0000 (0.0143) Accu: 99.55
+Epoch: [44][40/64] Time: 0.672 (0.705) Data: 0.013 (0.025) lr:0.001 Loss: 0.1781 (0.2106) TLoss: 0.0000 (0.0115) Accu: 99.43
+Epoch: [44][50/64] Time: 0.750 (0.708) Data: 0.014 (0.023) lr:0.001 Loss: 0.1801 (0.2049) TLoss: 0.0000 (0.0100) Accu: 99.51
+Epoch: [44][60/64] Time: 0.683 (0.705) Data: 0.012 (0.021) lr:0.001 Loss: 0.3548 (0.2050) TLoss: 0.0023 (0.0107) Accu: 99.44
+Test Epoch: 44
+Extracting Gallery Feature...
+Extracting Time:	 3.371
+Extracting Query Feature...
+Extracting Time:	 3.366
+Evaluation Time:	 9.588
+FC:   Rank-1: 86.17% | Rank-10: 95.68% | Rank-20: 98.06%| mAP: 81.61%
+==> Preparing Data Loader...
+Epoch: [45][0/64] Time: 1.267 (1.267) Data: 0.502 (0.502) lr:0.001 Loss: 0.2253 (0.2253) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [45][10/64] Time: 0.706 (0.818) Data: 0.014 (0.060) lr:0.001 Loss: 0.1686 (0.2089) TLoss: 0.0000 (0.0010) Accu: 99.15
+Epoch: [45][20/64] Time: 0.715 (0.880) Data: 0.016 (0.039) lr:0.001 Loss: 0.2211 (0.2035) TLoss: 0.0000 (0.0005) Accu: 99.48
+Epoch: [45][30/64] Time: 0.693 (0.907) Data: 0.014 (0.031) lr:0.001 Loss: 0.2404 (0.1999) TLoss: 0.0000 (0.0004) Accu: 99.65
+Epoch: [45][40/64] Time: 0.874 (0.918) Data: 0.020 (0.028) lr:0.001 Loss: 0.1923 (0.1917) TLoss: 0.0000 (0.0004) Accu: 99.73
+Epoch: [45][50/64] Time: 0.844 (0.926) Data: 0.020 (0.025) lr:0.001 Loss: 0.1508 (0.1890) TLoss: 0.0000 (0.0019) Accu: 99.72
+Epoch: [45][60/64] Time: 0.884 (0.930) Data: 0.020 (0.024) lr:0.001 Loss: 0.1702 (0.1889) TLoss: 0.0000 (0.0016) Accu: 99.77
+==> Preparing Data Loader...
+Epoch: [46][0/64] Time: 1.832 (1.832) Data: 0.512 (0.512) lr:0.001 Loss: 0.5114 (0.5114) TLoss: 0.0000 (0.0000) Accu: 93.75
+Epoch: [46][10/64] Time: 1.296 (1.031) Data: 0.013 (0.060) lr:0.001 Loss: 0.2089 (0.2731) TLoss: 0.0000 (0.0000) Accu: 98.86
+Epoch: [46][20/64] Time: 1.343 (0.987) Data: 0.014 (0.039) lr:0.001 Loss: 0.2614 (0.2157) TLoss: 0.0096 (0.0005) Accu: 99.33
+Epoch: [46][30/64] Time: 1.313 (0.973) Data: 0.016 (0.031) lr:0.001 Loss: 0.1854 (0.2009) TLoss: 0.0000 (0.0003) Accu: 99.50
+Epoch: [46][40/64] Time: 1.294 (0.967) Data: 0.016 (0.028) lr:0.001 Loss: 0.1448 (0.1944) TLoss: 0.0000 (0.0009) Accu: 99.62
+Epoch: [46][50/64] Time: 1.127 (0.960) Data: 0.015 (0.025) lr:0.001 Loss: 0.1627 (0.1966) TLoss: 0.0000 (0.0008) Accu: 99.45
+Epoch: [46][60/64] Time: 0.902 (0.954) Data: 0.015 (0.024) lr:0.001 Loss: 0.3602 (0.2097) TLoss: 0.0949 (0.0048) Accu: 99.49
+Test Epoch: 46
+Extracting Gallery Feature...
+Extracting Time:	 4.222
+Extracting Query Feature...
+Extracting Time:	 4.237
+Evaluation Time:	 9.856
+FC:   Rank-1: 85.73% | Rank-10: 96.07% | Rank-20: 98.45%| mAP: 81.36%
+==> Preparing Data Loader...
+Epoch: [47][0/64] Time: 1.297 (1.297) Data: 0.542 (0.542) lr:0.001 Loss: 0.2976 (0.2976) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [47][10/64] Time: 0.858 (0.988) Data: 0.020 (0.063) lr:0.001 Loss: 0.2118 (0.2256) TLoss: 0.0000 (0.0011) Accu: 99.86
+Epoch: [47][20/64] Time: 0.806 (0.973) Data: 0.020 (0.041) lr:0.001 Loss: 0.1874 (0.2133) TLoss: 0.0000 (0.0006) Accu: 99.85
+Epoch: [47][30/64] Time: 0.757 (0.944) Data: 0.017 (0.033) lr:0.001 Loss: 0.1353 (0.1981) TLoss: 0.0026 (0.0005) Accu: 99.90
+Epoch: [47][40/64] Time: 0.726 (0.894) Data: 0.016 (0.029) lr:0.001 Loss: 0.1453 (0.1954) TLoss: 0.0000 (0.0004) Accu: 99.62
+Epoch: [47][50/64] Time: 0.680 (0.859) Data: 0.013 (0.026) lr:0.001 Loss: 0.2203 (0.1979) TLoss: 0.0173 (0.0007) Accu: 99.66
+Epoch: [47][60/64] Time: 0.676 (0.829) Data: 0.014 (0.024) lr:0.001 Loss: 0.1380 (0.1918) TLoss: 0.0000 (0.0009) Accu: 99.67
+==> Preparing Data Loader...
+Epoch: [48][0/64] Time: 1.199 (1.199) Data: 0.529 (0.529) lr:0.001 Loss: 0.1367 (0.1367) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [48][10/64] Time: 0.734 (0.758) Data: 0.016 (0.062) lr:0.001 Loss: 0.1784 (0.1730) TLoss: 0.0000 (0.0000) Accu: 99.43
+Epoch: [48][20/64] Time: 0.698 (0.739) Data: 0.015 (0.040) lr:0.001 Loss: 0.1352 (0.1923) TLoss: 0.0000 (0.0069) Accu: 99.03
+Epoch: [48][30/64] Time: 0.724 (0.736) Data: 0.014 (0.032) lr:0.001 Loss: 0.1274 (0.1883) TLoss: 0.0000 (0.0052) Accu: 99.34
+Epoch: [48][40/64] Time: 0.674 (0.731) Data: 0.015 (0.028) lr:0.001 Loss: 0.1208 (0.1879) TLoss: 0.0000 (0.0039) Accu: 99.43
+Epoch: [48][50/64] Time: 0.698 (0.721) Data: 0.014 (0.025) lr:0.001 Loss: 0.1082 (0.2018) TLoss: 0.0000 (0.0094) Accu: 99.45
+Epoch: [48][60/64] Time: 0.737 (0.717) Data: 0.015 (0.023) lr:0.001 Loss: 0.1768 (0.1991) TLoss: 0.0000 (0.0082) Accu: 99.46
+Test Epoch: 48
+Extracting Gallery Feature...
+Extracting Time:	 3.425
+Extracting Query Feature...
+Extracting Time:	 3.393
+Evaluation Time:	 9.455
+FC:   Rank-1: 86.41% | Rank-10: 95.97% | Rank-20: 98.11%| mAP: 81.73%
+==> Preparing Data Loader...
+Epoch: [49][0/64] Time: 1.185 (1.185) Data: 0.492 (0.492) lr:0.001 Loss: 0.1626 (0.1626) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [49][10/64] Time: 0.742 (0.760) Data: 0.015 (0.058) lr:0.001 Loss: 0.3498 (0.1873) TLoss: 0.0000 (0.0000) Accu: 99.86
+Epoch: [49][20/64] Time: 0.683 (0.742) Data: 0.013 (0.037) lr:0.001 Loss: 0.2670 (0.2150) TLoss: 0.0000 (0.0014) Accu: 99.63
+Epoch: [49][30/64] Time: 0.694 (0.725) Data: 0.015 (0.030) lr:0.001 Loss: 0.2670 (0.2061) TLoss: 0.0000 (0.0009) Accu: 99.65
+Epoch: [49][40/64] Time: 0.693 (0.717) Data: 0.013 (0.026) lr:0.001 Loss: 0.1525 (0.2009) TLoss: 0.0000 (0.0007) Accu: 99.66
+Epoch: [49][50/64] Time: 1.034 (0.781) Data: 0.016 (0.024) lr:0.001 Loss: 0.2458 (0.1962) TLoss: 0.0000 (0.0006) Accu: 99.72
+Epoch: [49][60/64] Time: 1.154 (0.830) Data: 0.016 (0.023) lr:0.001 Loss: 0.3706 (0.2007) TLoss: 0.0000 (0.0012) Accu: 99.62
+==> Preparing Data Loader...
+Epoch: [50][0/64] Time: 1.199 (1.199) Data: 0.514 (0.514) lr:0.001 Loss: 0.1605 (0.1605) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [50][10/64] Time: 1.232 (1.110) Data: 0.022 (0.063) lr:0.001 Loss: 0.1234 (0.1560) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [50][20/64] Time: 1.437 (1.152) Data: 0.014 (0.041) lr:0.001 Loss: 0.2486 (0.1586) TLoss: 0.0000 (0.0113) Accu: 99.85
+Epoch: [50][30/64] Time: 0.680 (1.147) Data: 0.014 (0.034) lr:0.001 Loss: 0.1694 (0.1713) TLoss: 0.0000 (0.0087) Accu: 99.80
+Epoch: [50][40/64] Time: 1.376 (1.144) Data: 0.019 (0.030) lr:0.001 Loss: 0.2149 (0.1768) TLoss: 0.0000 (0.0066) Accu: 99.58
+Epoch: [50][50/64] Time: 1.382 (1.157) Data: 0.018 (0.028) lr:0.001 Loss: 0.1283 (0.1792) TLoss: 0.0000 (0.0057) Accu: 99.66
+Epoch: [50][60/64] Time: 0.689 (1.149) Data: 0.013 (0.026) lr:0.001 Loss: 0.1419 (0.1780) TLoss: 0.0000 (0.0053) Accu: 99.59
+Test Epoch: 50
+Extracting Gallery Feature...
+Extracting Time:	 4.370
+Extracting Query Feature...
+Extracting Time:	 5.020
+Evaluation Time:	 10.475
+FC:   Rank-1: 86.70% | Rank-10: 96.21% | Rank-20: 98.40%| mAP: 82.06%
+==> Preparing Data Loader...
+Epoch: [51][0/64] Time: 1.383 (1.383) Data: 0.642 (0.642) lr:0.001 Loss: 0.2569 (0.2569) TLoss: 0.0000 (0.0000) Accu: 98.44
+Epoch: [51][10/64] Time: 0.703 (0.773) Data: 0.014 (0.071) lr:0.001 Loss: 0.1163 (0.2135) TLoss: 0.0000 (0.0241) Accu: 99.72
+Epoch: [51][20/64] Time: 0.707 (0.737) Data: 0.017 (0.044) lr:0.001 Loss: 0.2474 (0.2056) TLoss: 0.0145 (0.0183) Accu: 99.85
+Epoch: [51][30/64] Time: 0.728 (0.727) Data: 0.016 (0.035) lr:0.001 Loss: 0.1869 (0.1957) TLoss: 0.0345 (0.0160) Accu: 99.75
+Epoch: [51][40/64] Time: 0.737 (0.727) Data: 0.017 (0.030) lr:0.001 Loss: 0.1276 (0.1924) TLoss: 0.0000 (0.0132) Accu: 99.81
+Epoch: [51][50/64] Time: 0.723 (0.726) Data: 0.013 (0.027) lr:0.001 Loss: 0.2373 (0.1954) TLoss: 0.0000 (0.0108) Accu: 99.75
+Epoch: [51][60/64] Time: 0.661 (0.724) Data: 0.012 (0.025) lr:0.001 Loss: 0.1396 (0.1965) TLoss: 0.0000 (0.0145) Accu: 99.72
+==> Preparing Data Loader...
+Epoch: [52][0/64] Time: 1.302 (1.302) Data: 0.609 (0.609) lr:0.001 Loss: 0.1400 (0.1400) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [52][10/64] Time: 0.655 (0.733) Data: 0.013 (0.068) lr:0.001 Loss: 0.1302 (0.1418) TLoss: 0.0000 (0.0028) Accu: 100.00
+Epoch: [52][20/64] Time: 0.772 (0.730) Data: 0.014 (0.042) lr:0.001 Loss: 0.1101 (0.1504) TLoss: 0.0000 (0.0023) Accu: 99.85
+Epoch: [52][30/64] Time: 0.694 (0.720) Data: 0.013 (0.033) lr:0.001 Loss: 0.2261 (0.1636) TLoss: 0.0000 (0.0015) Accu: 99.90
+Epoch: [52][40/64] Time: 0.650 (0.708) Data: 0.014 (0.029) lr:0.001 Loss: 0.1621 (0.1679) TLoss: 0.0000 (0.0032) Accu: 99.89
+Epoch: [52][50/64] Time: 0.734 (0.709) Data: 0.014 (0.026) lr:0.001 Loss: 0.1538 (0.1685) TLoss: 0.0000 (0.0026) Accu: 99.85
+Epoch: [52][60/64] Time: 0.683 (0.711) Data: 0.012 (0.024) lr:0.001 Loss: 0.1222 (0.1722) TLoss: 0.0000 (0.0032) Accu: 99.87
+Test Epoch: 52
+Extracting Gallery Feature...
+Extracting Time:	 3.330
+Extracting Query Feature...
+Extracting Time:	 3.328
+Evaluation Time:	 9.496
+FC:   Rank-1: 86.60% | Rank-10: 96.02% | Rank-20: 98.25%| mAP: 81.92%
+==> Preparing Data Loader...
+Epoch: [53][0/64] Time: 1.816 (1.816) Data: 0.519 (0.519) lr:0.001 Loss: 0.3231 (0.3231) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [53][10/64] Time: 0.964 (1.134) Data: 0.014 (0.061) lr:0.001 Loss: 0.4086 (0.2110) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [53][20/64] Time: 0.691 (1.152) Data: 0.013 (0.040) lr:0.001 Loss: 0.1123 (0.1920) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [53][30/64] Time: 0.692 (1.166) Data: 0.014 (0.032) lr:0.001 Loss: 0.2420 (0.1789) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [53][40/64] Time: 0.697 (1.174) Data: 0.015 (0.029) lr:0.001 Loss: 0.1692 (0.1841) TLoss: 0.0000 (0.0000) Accu: 99.96
+Epoch: [53][50/64] Time: 1.022 (1.178) Data: 0.015 (0.026) lr:0.001 Loss: 0.2372 (0.1862) TLoss: 0.0000 (0.0035) Accu: 99.97
+Epoch: [53][60/64] Time: 1.277 (1.178) Data: 0.018 (0.025) lr:0.001 Loss: 0.1964 (0.1866) TLoss: 0.0000 (0.0033) Accu: 99.92
+==> Preparing Data Loader...
+Epoch: [54][0/64] Time: 2.001 (2.001) Data: 0.583 (0.583) lr:0.001 Loss: 0.1356 (0.1356) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [54][10/64] Time: 1.331 (1.215) Data: 0.020 (0.067) lr:0.001 Loss: 0.2417 (0.1753) TLoss: 0.0000 (0.0257) Accu: 99.57
+Epoch: [54][20/64] Time: 1.288 (1.181) Data: 0.020 (0.044) lr:0.001 Loss: 0.1354 (0.1910) TLoss: 0.0000 (0.0191) Accu: 99.40
+Epoch: [54][30/64] Time: 0.729 (1.064) Data: 0.018 (0.035) lr:0.001 Loss: 0.2351 (0.1930) TLoss: 0.0000 (0.0132) Accu: 99.24
+Epoch: [54][40/64] Time: 0.730 (0.981) Data: 0.014 (0.030) lr:0.001 Loss: 0.1539 (0.2016) TLoss: 0.0000 (0.0190) Accu: 99.05
+Epoch: [54][50/64] Time: 0.698 (0.927) Data: 0.017 (0.027) lr:0.001 Loss: 0.2466 (0.2026) TLoss: 0.0000 (0.0153) Accu: 99.20
+Epoch: [54][60/64] Time: 0.688 (0.886) Data: 0.012 (0.025) lr:0.001 Loss: 0.1835 (0.2009) TLoss: 0.0000 (0.0187) Accu: 99.28
+Test Epoch: 54
+Extracting Gallery Feature...
+Extracting Time:	 3.395
+Extracting Query Feature...
+Extracting Time:	 3.459
+Evaluation Time:	 10.854
+FC:   Rank-1: 86.89% | Rank-10: 95.83% | Rank-20: 98.50%| mAP: 82.11%
+==> Preparing Data Loader...
+Epoch: [55][0/64] Time: 1.266 (1.266) Data: 0.531 (0.531) lr:0.001 Loss: 0.1689 (0.1689) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [55][10/64] Time: 0.718 (0.773) Data: 0.013 (0.060) lr:0.001 Loss: 0.2651 (0.1763) TLoss: 0.0000 (0.0000) Accu: 99.72
+Epoch: [55][20/64] Time: 0.694 (0.730) Data: 0.012 (0.038) lr:0.001 Loss: 0.2997 (0.1779) TLoss: 0.0181 (0.0013) Accu: 99.63
+Epoch: [55][30/64] Time: 0.662 (0.712) Data: 0.012 (0.030) lr:0.001 Loss: 0.1834 (0.1746) TLoss: 0.0000 (0.0133) Accu: 99.75
+Epoch: [55][40/64] Time: 0.725 (0.715) Data: 0.015 (0.026) lr:0.001 Loss: 0.1488 (0.1747) TLoss: 0.0000 (0.0101) Accu: 99.77
+Epoch: [55][50/64] Time: 0.699 (0.714) Data: 0.014 (0.024) lr:0.001 Loss: 0.1402 (0.1789) TLoss: 0.0000 (0.0101) Accu: 99.75
+Epoch: [55][60/64] Time: 0.668 (0.708) Data: 0.015 (0.022) lr:0.001 Loss: 0.1844 (0.1772) TLoss: 0.0000 (0.0087) Accu: 99.80
+==> Preparing Data Loader...
+Epoch: [56][0/64] Time: 1.229 (1.229) Data: 0.501 (0.501) lr:0.001 Loss: 0.1376 (0.1376) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [56][10/64] Time: 0.732 (0.777) Data: 0.013 (0.058) lr:0.001 Loss: 0.1945 (0.1956) TLoss: 0.0149 (0.0014) Accu: 100.00
+Epoch: [56][20/64] Time: 0.671 (0.737) Data: 0.013 (0.037) lr:0.001 Loss: 0.1734 (0.1836) TLoss: 0.0000 (0.0024) Accu: 99.93
+Epoch: [56][30/64] Time: 0.670 (0.717) Data: 0.013 (0.029) lr:0.001 Loss: 0.5282 (0.1936) TLoss: 0.0000 (0.0024) Accu: 99.95
+Epoch: [56][40/64] Time: 0.690 (0.707) Data: 0.013 (0.025) lr:0.001 Loss: 0.1267 (0.1980) TLoss: 0.0000 (0.0018) Accu: 99.70
+Epoch: [56][50/64] Time: 1.298 (0.782) Data: 0.019 (0.023) lr:0.001 Loss: 0.1303 (0.1854) TLoss: 0.0000 (0.0015) Accu: 99.75
+Epoch: [56][60/64] Time: 1.174 (0.833) Data: 0.015 (0.022) lr:0.001 Loss: 0.1529 (0.1905) TLoss: 0.0000 (0.0132) Accu: 99.77
+Test Epoch: 56
+Extracting Gallery Feature...
+Extracting Time:	 4.938
+Extracting Query Feature...
+Extracting Time:	 3.937
+Evaluation Time:	 10.003
+FC:   Rank-1: 86.75% | Rank-10: 96.26% | Rank-20: 98.54%| mAP: 81.93%
+==> Preparing Data Loader...
+Epoch: [57][0/64] Time: 1.236 (1.236) Data: 0.518 (0.518) lr:0.001 Loss: 0.1733 (0.1733) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [57][10/64] Time: 1.225 (1.246) Data: 0.020 (0.063) lr:0.001 Loss: 0.2353 (0.1704) TLoss: 0.0000 (0.0000) Accu: 99.86
+Epoch: [57][20/64] Time: 1.293 (1.169) Data: 0.022 (0.041) lr:0.001 Loss: 0.1378 (0.1688) TLoss: 0.0000 (0.0004) Accu: 99.85
+Epoch: [57][30/64] Time: 1.300 (1.156) Data: 0.020 (0.033) lr:0.001 Loss: 0.1730 (0.1657) TLoss: 0.0000 (0.0008) Accu: 99.85
+Epoch: [57][40/64] Time: 1.205 (1.179) Data: 0.018 (0.029) lr:0.001 Loss: 0.1957 (0.1724) TLoss: 0.0000 (0.0006) Accu: 99.62
+Epoch: [57][50/64] Time: 0.706 (1.142) Data: 0.014 (0.027) lr:0.001 Loss: 0.2060 (0.1744) TLoss: 0.0000 (0.0005) Accu: 99.66
+Epoch: [57][60/64] Time: 0.724 (1.073) Data: 0.014 (0.025) lr:0.001 Loss: 0.1748 (0.1761) TLoss: 0.0000 (0.0004) Accu: 99.56
+==> Preparing Data Loader...
+Epoch: [58][0/64] Time: 1.241 (1.241) Data: 0.532 (0.532) lr:0.001 Loss: 0.1773 (0.1773) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [58][10/64] Time: 0.683 (0.746) Data: 0.013 (0.061) lr:0.001 Loss: 0.2806 (0.2050) TLoss: 0.0000 (0.0000) Accu: 99.86
+Epoch: [58][20/64] Time: 0.664 (0.712) Data: 0.013 (0.038) lr:0.001 Loss: 0.1508 (0.1945) TLoss: 0.0000 (0.0279) Accu: 99.78
+Epoch: [58][30/64] Time: 0.732 (0.706) Data: 0.014 (0.030) lr:0.001 Loss: 0.1554 (0.2127) TLoss: 0.0000 (0.0189) Accu: 99.55
+Epoch: [58][40/64] Time: 0.716 (0.710) Data: 0.017 (0.026) lr:0.001 Loss: 0.1554 (0.2108) TLoss: 0.0000 (0.0145) Accu: 99.62
+Epoch: [58][50/64] Time: 0.732 (0.711) Data: 0.014 (0.024) lr:0.001 Loss: 0.1993 (0.2005) TLoss: 0.0000 (0.0116) Accu: 99.69
+Epoch: [58][60/64] Time: 0.712 (0.714) Data: 0.013 (0.023) lr:0.001 Loss: 0.2043 (0.1992) TLoss: 0.0000 (0.0098) Accu: 99.64
+Test Epoch: 58
+Extracting Gallery Feature...
+Extracting Time:	 3.336
+Extracting Query Feature...
+Extracting Time:	 3.342
+Evaluation Time:	 10.416
+FC:   Rank-1: 86.84% | Rank-10: 96.31% | Rank-20: 98.54%| mAP: 82.00%
+==> Preparing Data Loader...
+Epoch: [59][0/64] Time: 1.229 (1.229) Data: 0.502 (0.502) lr:0.001 Loss: 0.2126 (0.2126) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [59][10/64] Time: 0.677 (0.753) Data: 0.013 (0.057) lr:0.001 Loss: 0.2815 (0.1964) TLoss: 0.0000 (0.0000) Accu: 99.43
+Epoch: [59][20/64] Time: 0.687 (0.720) Data: 0.014 (0.036) lr:0.001 Loss: 0.0996 (0.1905) TLoss: 0.0000 (0.0091) Accu: 99.70
+Epoch: [59][30/64] Time: 0.731 (0.717) Data: 0.014 (0.029) lr:0.001 Loss: 0.1562 (0.1842) TLoss: 0.0000 (0.0062) Accu: 99.70
+Epoch: [59][40/64] Time: 0.713 (0.720) Data: 0.014 (0.025) lr:0.001 Loss: 0.1456 (0.1848) TLoss: 0.0000 (0.0074) Accu: 99.73
+Epoch: [59][50/64] Time: 0.683 (0.714) Data: 0.012 (0.023) lr:0.001 Loss: 0.6566 (0.2036) TLoss: 0.0000 (0.0060) Accu: 99.63
+Epoch: [59][60/64] Time: 0.675 (0.709) Data: 0.012 (0.021) lr:0.001 Loss: 0.1210 (0.2006) TLoss: 0.0000 (0.0056) Accu: 99.69
+==> Preparing Data Loader...
+Epoch: [60][0/64] Time: 1.698 (1.698) Data: 0.537 (0.537) lr:0.0001 Loss: 0.1037 (0.1037) TLoss: 0.0000 (0.0000) Accu: 100.00
+Epoch: [60][10/64] Time: 1.346 (1.333) Data: 0.014 (0.064) lr:0.0001 Loss: 0.2073 (0.1506) TLoss: 0.0000 (0.0040) Accu: 99.72
+Epoch: [60][20/64] Time: 1.279 (1.241) Data: 0.013 (0.041) lr:0.0001 Loss: 0.0943 (0.1575) TLoss: 0.0000 (0.0075) Accu: 99.63
+Epoch: [60][30/64] Time: 0.671 (1.220) Data: 0.012 (0.033) lr:0.0001 Loss: 0.3094 (0.1636) TLoss: 0.0000 (0.0130) Accu: 99.65
+Epoch: [60][40/64] Time: 1.306 (1.227) Data: 0.023 (0.029) lr:0.0001 Loss: 0.1535 (0.1906) TLoss: 0.0000 (0.0099) Accu: 99.47
+Epoch: [60][50/64] Time: 1.246 (1.204) Data: 0.020 (0.027) lr:0.0001 Loss: 0.1359 (0.1866) TLoss: 0.0000 (0.0086) Accu: 99.45
+Epoch: [60][60/64] Time: 1.253 (1.215) Data: 0.018 (0.025) lr:0.0001 Loss: 0.1234 (0.1858) TLoss: 0.0000 (0.0072) Accu: 99.49
+Test Epoch: 60
+Extracting Gallery Feature...
+Extracting Time:	 5.090
+Extracting Query Feature...
+Extracting Time:	 4.945
+Evaluation Time:	 9.679
+FC:   Rank-1: 87.04% | Rank-10: 96.26% | Rank-20: 98.06%| mAP: 82.00%

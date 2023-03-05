@@ -1,0 +1,36 @@
+==> Building model..
+==> Resuming from checkpoint..
+model path is /Project0551/guoqing/zhangyinyin/baseline+6HC+6tri+1tri_cat_2/save_model/regdb_id_bn_relu_drop_0.0_lr_1.0e-02_dim_512_whc_0.5_thd_0_pimg_8_ds_cos_md_all_resnet50_trial_1_best.t!!!!
+==> loading checkpoint regdb_id_bn_relu_drop_0.0_lr_1.0e-02_dim_512_whc_0.5_thd_0_pimg_8_ds_cos_md_all_resnet50_trial_1_best.t
+==> loaded checkpoint regdb_id_bn_relu_drop_0.0_lr_1.0e-02_dim_512_whc_0.5_thd_0_pimg_8_ds_cos_md_all_resnet50_trial_1_best.t (epoch 38)
+==> loaded checkpoint regdb_id_bn_relu_drop_0.0_lr_1.0e-02_dim_512_whc_0.5_thd_0_pimg_8_ds_cos_md_all_resnet50_trial_1_best.t (epoch 38)
+==> Loading data..
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  query    |   206 |     2060
+  gallery  |   206 |     2060
+  ------------------------------
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  query    |   206 |     2060
+  gallery  |   206 |     2060
+  ------------------------------
+Data Loading Time:	 19.741
+Extracting Query Feature...
+Extracting Time:	 7.511
+Extracting Gallery Feature...
+Extracting Time:	 4.585
+Test Trial: 1
+FC: top-1: 87.04% | top-5: 93.50% | top-10: 96.65%| top-20: 98.25%
+mAP: 82.02%
+POOL5: top-1: 88.30% | top-5: 94.61% | top-10: 97.23%| top-20: 98.98%
+mAP: 80.57%
+Test Trial: 1
+FC: top-1: 87.04% | top-5: 93.50% | top-10: 96.65%| top-20: 98.25%
+mAP: 82.02%
+POOL5: top-1: 88.30% | top-5: 94.61% | top-10: 97.23%| top-20: 98.98%
+mAP: 80.57%

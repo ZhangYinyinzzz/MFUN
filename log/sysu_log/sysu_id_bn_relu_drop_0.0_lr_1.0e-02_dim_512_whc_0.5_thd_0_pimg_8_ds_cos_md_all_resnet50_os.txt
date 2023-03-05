@@ -1,0 +1,19 @@
+==> Loading data..
+Dataset sysu statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  visible  |   395 |    22258
+  thermal  |   395 |    11909
+  ------------------------------
+  query    |    96 |     3803
+  gallery  |    96 |      301
+  ------------------------------
+Data Loading Time:	 253.495
+==> Building model..
+==> Start Training...
+==> Preparing Data Loader...
+Epoch: [0][0/695] Time: 21.300 (21.300) Data: 7.567 (7.567) lr:0.01 Loss: 9.6034 (9.6034) TLoss: 8.0380 (8.0380) Accu: 0.00
+Epoch: [0][10/695] Time: 2.929 (7.193) Data: 0.058 (0.862) lr:0.01 Loss: 9.2368 (9.2345) TLoss: 8.8477 (7.8003) Accu: 6.25
+Epoch: [0][20/695] Time: 6.142 (6.280) Data: 0.021 (0.551) lr:0.01 Loss: 8.6722 (9.1741) TLoss: 7.6038 (7.8524) Accu: 3.27
+Epoch: [0][30/695] Time: 5.704 (5.812) Data: 0.055 (0.410) lr:0.01 Loss: 8.3054 (9.0768) TLoss: 7.3356 (7.8104) Accu: 2.27
